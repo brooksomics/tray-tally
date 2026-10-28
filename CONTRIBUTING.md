@@ -8,7 +8,7 @@ Not a developer? [Open an issue](https://github.com/brooksomics/tray-tally/issue
 
 - One maintainer reviews and merges. `main` is protected: every pull request needs the maintainer's approval and a green CI run.
 - Reviews happen in the maintainer's spare time. The aim is two to three weeks, but that's not a promise.
-- You change code and configuration, never data. A scheduled GitHub Action fetches every district each weekday and commits the results, `summary.json` included, to the `data` branch. A pull request must not add or change anything under `data/`.
+- You change code and configuration, never data. A scheduled GitHub Action fetches every district once a week and commits the results, `summary.json` included, to the `data` branch. A pull request must not add or change anything under `data/`.
 - The usual contribution is adding a district: one entry in [`districts.json`](districts.json). Bug fixes and adapter improvements are welcome too.
 
 ## Privacy
@@ -21,7 +21,7 @@ The tracker works at the district level.
 
 ## Be gentle with menu servers
 
-The scheduled run makes a few requests per district each weekday morning, one at a time and spaced out. A SchoolCafé district costs one weekly call per tracked meal, up to `maxDetails` nutrition calls `pauseMs` apart, and at most one daily call. An eTrition district costs 2 to 5 requests.
+The scheduled run makes a few requests per district once a week (Saturdays, for the school week just ended), one at a time and spaced out. A SchoolCafé district costs one weekly call per tracked meal, up to `maxDetails` nutrition calls `pauseMs` apart, and at most one daily call. An eTrition district costs 2 to 5 requests.
 
 Don't add anything that polls more often, sends requests in parallel, raises `maxDetails` or lowers `pauseMs`. When you look a district up by hand, make one call at a time, a second or more apart.
 
