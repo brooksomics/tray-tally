@@ -7,6 +7,7 @@ import {
   offenderTable,
   offenders,
   rows,
+  sugarTip,
   weeks,
   withGaps,
 } from "../dashboard/data.js";
@@ -290,6 +291,12 @@ test("offenders table: an estimated value is marked next to the item", () => {
   const rs = [row({ ...milk, flags: ["estimated_added_sugar"] })];
   const [cells] = offenderTable(offenders(rs)).rows;
   assert.equal(cells[1], "Fat Free Chocolate Milk (estimated)");
+});
+
+test("sugar tip: grams, then the share of a child's day (AHA 25 g)", () => {
+  const d = row({ item: "Parfait", addedSugarG: 19, ahaShare: 0.76 });
+  const want = `Parfait\n19 g = 76% of a child's daily limit\n${d.menu}`;
+  assert.equal(sugarTip(d), want);
 });
 
 // Browsers read a backslash as a slash and drop tabs and leading spaces.

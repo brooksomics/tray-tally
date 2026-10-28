@@ -116,6 +116,10 @@ export function offenderTable(list) {
   return { head, rows: list.map(cells) };
 }
 
+/** Per-item sugar tip. ahaShare: grams over the AHA's 25 g a day for children. */
+export const sugarTip = (/** @type {Row} */ d) =>
+  `${d.item}\n${d.addedSugarG} g = ${Math.round(Number(d.ahaShare) * 100)}% of a child's daily limit\n${d.menu}`;
+
 const nextMonday = (/** @type {string} */ week) => {
   const d = new Date(`${week}T12:00:00`);
   d.setDate(d.getDate() + 7);
