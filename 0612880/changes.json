@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "date": "2026-10-23",
+      "recipeID": 4529,
+      "recipeServingID": 4474,
+      "field": "calories",
+      "from": 349.238,
+      "to": 348
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": 4529,
+      "recipeServingID": 4474,
+      "field": "saturatedFat",
+      "from": 2.012,
+      "to": 2
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": 4529,
+      "recipeServingID": 4474,
+      "field": "dietaryFiber",
+      "from": 4.012,
+      "to": 4
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": 4529,
+      "recipeServingID": 4474,
+      "field": "protein",
+      "from": 17.025,
+      "to": 17
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": 4529,
+      "recipeServingID": 4474,
+      "field": "sodium",
+      "from": 478.857,
+      "to": 477
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": 4532,
+      "recipeServingID": 4477,
+      "field": "calories",
+      "from": 351.238,
+      "to": 350
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": 4532,
+      "recipeServingID": 4477,
+      "field": "saturatedFat",
+      "from": 3.512,
+      "to": 3.5
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": 4532,
+      "recipeServingID": 4477,
+      "field": "dietaryFiber",
+      "from": 6.012,
+      "to": 6
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": 4532,
+      "recipeServingID": 4477,
+      "field": "protein",
+      "from": 11.025,
+      "to": 11
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": 4532,
+      "recipeServingID": 4477,
+      "field": "sodium",
+      "from": 601.857,
+      "to": 600
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": 4966,
+      "recipeServingID": 4910,
+      "field": "servingSize",
+      "from": "Serving",
+      "to": "Each"
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": 4966,
+      "recipeServingID": 4910,
+      "field": "calories",
+      "from": 108.928,
+      "to": 317.994
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": 4966,
+      "recipeServingID": 4910,
+      "field": "saturatedFat",
+      "from": 1.097,
+      "to": 3.4
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": 4966,
+      "recipeServingID": 4910,
+      "field": "dietaryFiber",
+      "from": 1.083,
+      "to": 3
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": 4966,
+      "recipeServingID": 4910,
+      "field": "protein",
+      "from": 2.589,
+      "to": 18
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": 4966,
+      "recipeServingID": 4910,
+      "field": "sodium",
+      "from": 165.261,
+      "to": 449.992
+    }
+  ]
+}
