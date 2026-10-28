@@ -94,7 +94,6 @@ function charts(summary, f, rs) {
   return [
     ["needs", needsChart(rs, refs, f)],
     ["scorecard", scorecard(summary, f, rs)],
-    ["sugar", sugarChart(rs)],
     ["weeks", trendChart(data.weeks(summary, f), weeksOpts(refs))],
     ["upf", trendChart(upf, UPF)],
     ["upf-path", upfPathSection(upf, refs)],
@@ -109,7 +108,8 @@ function charts(summary, f, rs) {
   ];
 }
 
-// The weekly charts per school day; `highlight` districts in color.
+// The By day section: the weekly charts per school day, then each item;
+// `highlight` districts in color.
 function dailyCharts(rs, refs, highlight) {
   const per = "day";
   const daily = (opts) => ({ ...opts, per, highlight });
@@ -118,6 +118,7 @@ function dailyCharts(rs, refs, highlight) {
     trendChart(series(rs, per), daily(opts)),
   ];
   return [
+    ["sugar", sugarChart(rs, highlight)],
     trend("day-sugar", addedSugarShare, daySugarOpts(refs)),
     trend("day-upf", upfShare, UPF),
     trend("day-fiber", entreeFiberDensity, fiberOpts(refs)),
