@@ -1,5 +1,8 @@
-# Weekday fetch: runs src/run.ts and commits data/ to the `data` branch, which
-# holds every fetched day plus summary.json. main never holds data.
+# Weekly fetch: Saturdays, src/run.ts fetches the Monday-Friday just ended
+# (a weekend run takes that week) and commits data/ to the `data` branch,
+# which holds every fetched day plus summary.json. main never holds data.
+# Once a week, not daily: a daily re-fetch only re-stamped the same menus,
+# and fewer requests is gentler on the menu servers.
 # Scheduled runs use main's code only; forks don't run schedules.
 # ponytail: GitHub disables schedules after 60 days without repo activity
 # (summer break); re-enable under Actions when school starts.
@@ -7,8 +10,12 @@ name: fetch
 
 on:
   schedule:
-    - cron: "0 17 * * 1-5" # 10:00 Pacific in summer, 09:00 in winter; may start late
+    - cron: "0 17 * * 6" # Saturday 10:00 Pacific in summer, 09:00 in winter; may start late
   workflow_dispatch:
+    inputs:
+      date:
+        description: "YYYY-MM-DD: any day of the week to fetch, optionally followed by one NCES id (blank: this week; on a weekend, the week just ended)"
+        required: false
 
 permissions:
   contents: write # push to the data branch
@@ -20,6 +27,8 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      TZ: America/Los_Angeles # src/dates.ts reads local time as Pacific, like the menus
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -34,7 +43,11 @@ jobs:
       - run: npm ci --ignore-scripts
       # A failed district still writes the others' days: commit those, then
       # fail the run so it shows (GitHub emails on a failed scheduled run).
-      - run: npm run fetch || echo "FETCH_FAILED=1" >> "$GITHUB_ENV"
+      # An input lands in an env var, never inline in the script (injection);
+      # src/cli.ts takes only a real date and an optional district id (test/cli.test.ts).
+      - run: npm run fetch -- $DATE || echo "FETCH_FAILED=1" >> "$GITHUB_ENV"
+        env:
+          DATE: ${{ inputs.date }}
       - name: Commit to the data branch
         working-directory: data
         run: |

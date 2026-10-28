@@ -25,17 +25,17 @@ Work on a `feature/*` branch and merge it into `main` through a pull request. Th
 
 CI ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) runs on pull requests (opened, reopened, or pushed to) and on pushes to `main`. Pushing a feature branch with no open pull request runs nothing. It repeats the local checks (prek's pre-commit hooks, `npm run check`) and scans the whole history with gitleaks and trufflehog. CI runs after the code is already on GitHub, so it backs up the local hooks, not replaces them. It has no privacy denylist: that check exists only in the local pre-push hook.
 
-## Daily job
+## Weekly job
 
 `npm run fetch` fetches the current week for every district in `districts.json`. It writes `data/<NCES id>/` and rebuilds `data/summary.json`.
 
-The [`fetch` workflow](.github/workflows/fetch.yml) runs it on weekdays at 17:00 UTC (10:00 Pacific in summer, 09:00 in winter) and commits `data/` to the [`data` branch](https://github.com/brooksomics/tray-tally/tree/data), so `main` holds no data. Run it by hand from the Actions tab. A district that fails still lets the others' days be committed, then fails the run. GitHub turns a public repo's schedules off after 60 days without activity, so after a summer break check the Actions tab and re-enable it.
+The [`fetch` workflow](.github/workflows/fetch.yml) runs it on Saturdays at 17:00 UTC (10:00 Pacific in summer, 09:00 in winter), fetching the school week just ended, and commits `data/` to the [`data` branch](https://github.com/brooksomics/tray-tally/tree/data), so `main` holds no data. Once a week is enough: a daily re-fetch of the same week only re-stamped the same menus, and fewer requests is gentler on the menu servers. Run it by hand from the Actions tab, optionally with a date (any day of a past week, to fill one a failed run missed). A district that fails still lets the others' days be committed, then fails the run. GitHub turns a public repo's schedules off after 60 days without activity, so after a summer break check the Actions tab and re-enable it.
 
 To refresh the blog's copy: `git worktree add ../tray-tally-data data` (later, `git -C ../tray-tally-data pull`), then `DATA_DIR=../tray-tally-data scripts/publish-blog.sh <blog checkout>`.
 
 ### On a Mac instead (launchd)
 
-A `launchd` agent can run the same job locally on weekdays at 10:00. Don't run it alongside the workflow, which would double the requests to the menu servers.
+A `launchd` agent can run the same job locally. The block below runs it on weekdays at 10:00. For Saturdays only, replace its five Weekday entries with one for Weekday 6. Don't run it alongside the workflow, which would double the requests to the menu servers.
 - If the Mac is asleep at 10:00, launchd starts the job on wake, and several missed runs collapse into one (`man launchd.plist`).
 - If the Mac is powered off, the day is skipped. Every run re-fetches the whole week, so that heals by itself.
 
@@ -111,7 +111,7 @@ A static page over `data/summary.json`, with no build step:
 
 ```sh
 mkdir -p data && curl -sfL https://raw.githubusercontent.com/brooksomics/tray-tally/data/summary.json -o data/summary.json
-                                  # the daily job's latest; or `npm run fetch` to make your own
+                                  # the weekly job's latest; or `npm run fetch` to make your own
 python3 -m http.server 8000       # from the repo root
 open http://localhost:8000/dashboard/
 ```
