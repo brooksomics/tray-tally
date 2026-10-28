@@ -1,7 +1,7 @@
 // Dashboard: reads summary.json, renders filters + charts.
 // Shaping: data.js / series.js / path.js; charts: charts.js, lines.js; DOM + labels: ui.js.
 import { bestItems, bestNote, bestTable } from "./best.js";
-import { sodiumChart, sugarChart, trendChart, WIDTH } from "./charts.js";
+import { sodiumChart, sugarChart, trendChart } from "./charts.js";
 import * as data from "./data.js";
 import { names, pick } from "./highlight.js";
 import {
@@ -31,6 +31,7 @@ import {
   table,
 } from "./ui.js";
 import { unrecorded, unrecordedNote, unrecordedTable } from "./unrecorded.js";
+import { onWidthChange, width } from "./width.js";
 
 const param = new URLSearchParams(location.search).get("data");
 const DATA = data.dataUrl(param, location.href);
@@ -79,7 +80,7 @@ function upfPathSection(upf, refs) {
         "No path: no weekly share in these filters, or summary.json predates the AB 1264 dates (rerun npm run fetch).",
     });
   const caption = pathCaption(path, dates);
-  const chart = pathChart(upf, path, { dates, width: WIDTH });
+  const chart = pathChart(upf, path, { dates, width: width() });
   return el(
     "div",
     {},
@@ -183,6 +184,7 @@ async function main() {
   );
   // The daily charts are too dense for a phone: folded there, open elsewhere.
   if (matchMedia("(max-width: 640px)").matches) $("by-day").open = false;
+  onWidthChange(() => render(summary, all, form));
   render(summary, all, form);
 }
 

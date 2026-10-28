@@ -1,6 +1,6 @@
 // The top chart. Browser only (Plot is a global from vendor/); the
 // math lives in needs.js, where tests reach it.
-import { WIDTH } from "./charts.js";
+import { width } from "./width.js";
 import { AGES, NUTRIENTS, needShares } from "./needs.js";
 import { el } from "./ui.js";
 
@@ -17,7 +17,7 @@ const LABEL = { ...AT, x: (r) => r.share ?? 0, fill: "currentColor", dx: 4 };
 // Nutrients down the side, a bar per age; dashed at 100%: the whole day.
 function plot(rows, text) {
   return Plot.plot({
-    width: WIDTH,
+    width: width(),
     x: { percent: true, grid: true, label: "% of a day's need" },
     y: { axis: null },
     fy: { label: null, axis: "left", domain: NUTRIENTS.map(([name]) => name) },
