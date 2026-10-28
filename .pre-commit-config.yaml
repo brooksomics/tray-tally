@@ -1,0 +1,63 @@
+# prek (npm devDep; `npm install` runs `prek install`). pre-commit also reads this file.
+# System hooks need gitleaks and trufflehog on PATH (brew install gitleaks trufflehog).
+default_install_hook_types: [pre-commit, pre-push]
+default_stages: [pre-commit]
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      # fixtures/ are raw API captures: check them, never rewrite them.
+      # stages pinned: these manifests also opt into pre-push, where a fixer
+      # rewriting files mid-push only confuses.
+      - id: trailing-whitespace
+        exclude: ^fixtures/
+        stages: [pre-commit]
+      - id: end-of-file-fixer
+        exclude: ^fixtures/
+        stages: [pre-commit]
+      - id: mixed-line-ending
+        exclude: ^fixtures/
+      - id: check-json
+      - id: check-yaml
+      - id: check-added-large-files
+        stages: [pre-commit]
+      - id: check-merge-conflict
+      - id: detect-private-key
+  - repo: local
+    hooks:
+      - id: gitleaks
+        name: gitleaks (staged)
+        entry: gitleaks git --pre-commit --staged --no-banner --redact
+        language: system
+        pass_filenames: false
+      - id: prettier
+        name: prettier
+        entry: node_modules/.bin/prettier --write --ignore-unknown
+        language: system
+        types: [text]
+      - id: eslint
+        name: eslint
+        entry: node_modules/.bin/eslint --max-warnings=0 --no-warn-ignored
+        language: system
+        files: \.(js|ts)$
+      - id: push-scan
+        name: secrets + privacy denylist (all history)
+        entry: scripts/push-scan.sh
+        language: system
+        pass_filenames: false
+        always_run: true
+        stages: [pre-push]
+      - id: check
+        name: npm run check
+        entry: npm run check
+        language: system
+        pass_filenames: false
+        always_run: true
+        stages: [pre-push]
+      - id: trufflehog
+        name: trufflehog (verified only)
+        entry: trufflehog git file://. --results=verified --fail --no-update
+        language: system
+        pass_filenames: false
+        always_run: true
+        stages: [pre-push]

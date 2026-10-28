@@ -1,0 +1,56 @@
+# Backstop for the local hooks. It runs after code is already on GitHub, so it
+# is not a leak guard. No privacy denylist here: push-scan.sh is pre-push only
+# and fails closed without one, and `prek run` only runs pre-commit hooks.
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  # Superseded PR runs only: every commit on main keeps a finished result.
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0 # whole history, for gitleaks and trufflehog
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 26 # engines.node floor
+      - name: Install gitleaks + trufflehog (same versions as local)
+        run: |
+          cd "$RUNNER_TEMP"
+          curl -sSfLO https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz
+          curl -sSfLO https://github.com/trufflesecurity/trufflehog/releases/download/v3.88.31/trufflehog_3.88.31_linux_amd64.tar.gz
+          sha256sum -c <<'EOF'
+          551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb  gitleaks_8.30.1_linux_x64.tar.gz
+          839bf8dca125decf2d77a2ceeb5f48f60e6ad364f310870359ea5246dec677c5  trufflehog_3.88.31_linux_amd64.tar.gz
+          EOF
+          mkdir bin
+          tar -xzf gitleaks_8.30.1_linux_x64.tar.gz -C bin gitleaks
+          tar -xzf trufflehog_3.88.31_linux_amd64.tar.gz -C bin trufflehog
+          echo "$RUNNER_TEMP/bin" >> "$GITHUB_PATH"
+      - run: npm ci --ignore-scripts # skips `prepare` (hook install); deps need no scripts
+      - run: npx prek run --all-files --show-diff-on-failure
+      - run: npm run check
+      # Both scanners exit 0 when git can't read history (unreadable pack:
+      # gitleaks "0 commits scanned", trufflehog partial), so fail here first.
+      - run: git log --all -p > /dev/null
+      # prek's gitleaks and large-file hooks only see staged changes; CI has none.
+      - run: gitleaks git --no-banner --redact
+      # gitleaks git and trufflehog both miss a line added only while resolving
+      # a merge conflict (reproduced 2026-10-15); --cc shows those
+      # lines, as scripts/push-scan.sh already does before every push.
+      - run: git log --all -p --cc --text --no-textconv --no-ext-diff | tr -d '\0' | gitleaks stdin --no-banner --redact
+      - run: trufflehog git file://. --results=verified --fail --no-update

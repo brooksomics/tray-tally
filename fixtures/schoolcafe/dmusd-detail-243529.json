@@ -1,0 +1,89 @@
+{
+ "NutritionalValues": [
+  {
+   "DRVPercentage": "19.23%",
+   "DailyValue": "12.50g",
+   "ComponentName": "Total Fat"
+  },
+  {
+   "DRVPercentage": "30.85%",
+   "DailyValue": "6.17g",
+   "ComponentName": "Saturated Fat"
+  },
+  {
+   "DRVPercentage": "10%",
+   "DailyValue": "30mg",
+   "ComponentName": "Cholesterol"
+  },
+  {
+   "DRVPercentage": "12.01%",
+   "DailyValue": "288.33mg",
+   "ComponentName": "Sodium"
+  },
+  {
+   "DRVPercentage": "9.78%",
+   "DailyValue": "29.33g",
+   "ComponentName": "Total Carbohydrate"
+  },
+  {
+   "DRVPercentage": "12%",
+   "DailyValue": "3g",
+   "ComponentName": "Dietary Fiber"
+  },
+  {
+   "DRVPercentage": "",
+   "DailyValue": "9g",
+   "ComponentName": "Sugars"
+  },
+  {
+   "DRVPercentage": "16.66%",
+   "DailyValue": "8.33g",
+   "ComponentName": "Added Sugars"
+  },
+  {
+   "DRVPercentage": "18.66%",
+   "DailyValue": "9.33g",
+   "ComponentName": "Protein"
+  },
+  {
+   "DRVPercentage": "0%",
+   "DailyValue": "0mg",
+   "ComponentName": "Vitamin C"
+  },
+  {
+   "DRVPercentage": "42.73%",
+   "DailyValue": "427.33mg",
+   "ComponentName": "Calcium"
+  },
+  {
+   "DRVPercentage": "10.83%",
+   "DailyValue": "1.95mg",
+   "ComponentName": "Iron"
+  }
+ ],
+ "MenuImages": [
+  {
+   "HasImage": false,
+   "PEMenuItemId": 116995,
+   "MenuItemId": 243529,
+   "ImageURL": "https://online3service.primeroedge.com/SchoolCafeAPIs/api/GetMenuItemImage?menuItemId=116995",
+   "Image": ""
+  }
+ ],
+ "MenuAllergens": [
+  {
+   "SchoolName": "",
+   "SharedFileName": "",
+   "HasSesame": "False",
+   "HasGluten": "True",
+   "HasSoy": "True",
+   "HasPeaNuts": "False",
+   "HasWheat": "True",
+   "HasTreeNuts": "False",
+   "HasShellFish": "False",
+   "HasFish": "False",
+   "HasEgg": "False",
+   "AllergenHasMilk": "True"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+# Weekday fetch: runs src/run.ts and commits data/ to the `data` branch, which
+# holds every fetched day plus summary.json. main never holds data.
+# Scheduled runs use main's code only; forks don't run schedules.
+# ponytail: GitHub disables schedules after 60 days without repo activity
+# (summer break); re-enable under Actions when school starts.
+name: fetch
+
+on:
+  schedule:
+    - cron: "0 17 * * 1-5" # 10:00 Pacific in summer, 09:00 in winter; may start late
+  workflow_dispatch:
+
+permissions:
+  contents: write # push to the data branch
+
+concurrency:
+  group: fetch
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: data
+          path: data
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 26 # engines.node floor
+      - run: npm ci --ignore-scripts
+      # A failed district still writes the others' days: commit those, then
+      # fail the run so it shows (GitHub emails on a failed scheduled run).
+      - run: npm run fetch || echo "FETCH_FAILED=1" >> "$GITHUB_ENV"
+      - name: Commit to the data branch
+        working-directory: data
+        run: |
+          git add -A
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git -c user.name="github-actions[bot]" \
+            -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -q -m "data: fetch $(date -u +%F)"
+          git push
+      - if: env.FETCH_FAILED == '1'
+        run: exit 1

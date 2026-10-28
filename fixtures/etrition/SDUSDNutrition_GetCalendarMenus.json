@@ -1,0 +1,4511 @@
+{
+ "records": [
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 11,
+   "recipeServingID": 11,
+   "menuDescription": "Concha (Mexican Sweet Bread)",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "egg",
+     "allergyID": 2,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 319,
+   "recipeServingID": 321,
+   "menuDescription": "Strawberry & Banana Smoothie",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 50,
+   "recipeServingID": 50,
+   "menuDescription": "Raisins, Sour Watermelon",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 18,
+   "recipeServingID": 18,
+   "menuDescription": "Milk, White 1%, Carton",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 5,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 25,
+   "recipeServingID": 25,
+   "menuDescription": "Cinnamon Rice Chex",
+   "sequenceNumber": 1,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 298,
+   "recipeServingID": 300,
+   "menuDescription": "Go-GURT Simply, Strawberry ",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 46,
+   "recipeServingID": 46,
+   "menuDescription": "Apple Slices",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 50,
+   "recipeServingID": 50,
+   "menuDescription": "Raisins, Sour Watermelon",
+   "sequenceNumber": 4,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 18,
+   "recipeServingID": 18,
+   "menuDescription": "Milk, White 1%, Carton",
+   "sequenceNumber": 5,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 6,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 13,
+   "recipeServingID": 13,
+   "menuDescription": "Mini Pancake Bites",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "egg",
+     "allergyID": 2,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 219,
+   "recipeServingID": 220,
+   "menuDescription": "Banana",
+   "sequenceNumber": 2,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 50,
+   "recipeServingID": 50,
+   "menuDescription": "Raisins, Sour Watermelon",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 18,
+   "recipeServingID": 18,
+   "menuDescription": "Milk, White 1%, Carton",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 5,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 27,
+   "recipeServingID": 27,
+   "menuDescription": "Honey Cheerios",
+   "sequenceNumber": 1,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 29,
+   "recipeServingID": 29,
+   "menuDescription": "Mozzarella String Cheese",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 50,
+   "recipeServingID": 50,
+   "menuDescription": "Raisins, Sour Watermelon",
+   "sequenceNumber": 4,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 18,
+   "recipeServingID": 18,
+   "menuDescription": "Milk, White 1%, Carton",
+   "sequenceNumber": 5,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 6,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 213,
+   "recipeServingID": 214,
+   "menuDescription": "Cantaloupe",
+   "sequenceNumber": 8,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 398,
+   "recipeServingID": 400,
+   "menuDescription": "Maple Mini Waffles",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "egg",
+     "allergyID": 2,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 41,
+   "recipeServingID": 41,
+   "menuDescription": "Orange Juice",
+   "sequenceNumber": 2,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 50,
+   "recipeServingID": 50,
+   "menuDescription": "Raisins, Sour Watermelon",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 18,
+   "recipeServingID": 18,
+   "menuDescription": "Milk, White 1%, Carton",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 5,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "B - Breakfast in the Classroom  - Adams Elementary-3 - Breakfast",
+   "menuName": "B - Breakfast in the Classroom ",
+   "menuNameID": 2,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 298,
+   "recipeServingID": 300,
+   "menuDescription": "Go-GURT Simply, Strawberry ",
+   "sequenceNumber": 7,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 11,
+   "recipeServingID": 11,
+   "menuDescription": "Concha (Mexican Sweet Bread)",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "egg",
+     "allergyID": 2,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 319,
+   "recipeServingID": 321,
+   "menuDescription": "Strawberry & Banana Smoothie",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 25,
+   "recipeServingID": 25,
+   "menuDescription": "Cinnamon Rice Chex",
+   "sequenceNumber": 1,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 298,
+   "recipeServingID": 300,
+   "menuDescription": "Go-GURT Simply, Strawberry ",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 46,
+   "recipeServingID": 46,
+   "menuDescription": "Apple Slices",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 5,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 13,
+   "recipeServingID": 13,
+   "menuDescription": "Mini Pancake Bites",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "egg",
+     "allergyID": 2,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 219,
+   "recipeServingID": 220,
+   "menuDescription": "Banana",
+   "sequenceNumber": 2,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 27,
+   "recipeServingID": 27,
+   "menuDescription": "Honey Cheerios",
+   "sequenceNumber": 1,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 298,
+   "recipeServingID": 300,
+   "menuDescription": "Go-GURT Simply, Strawberry ",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 5,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 213,
+   "recipeServingID": 214,
+   "menuDescription": "Cantaloupe",
+   "sequenceNumber": 7,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 398,
+   "recipeServingID": 400,
+   "menuDescription": "Maple Mini Waffles",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "egg",
+     "allergyID": 2,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 41,
+   "recipeServingID": 41,
+   "menuDescription": "Orange Juice",
+   "sequenceNumber": 2,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "B - PREK Breakfast in the Classroom - Adams Elementary-3 - Breakfast",
+   "menuName": "B - PREK Breakfast in the Classroom",
+   "menuNameID": 3,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 57,
+   "recipeServingID": 57,
+   "menuDescription": "Cheese Pizza Slice",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 60,
+   "recipeServingID": 60,
+   "menuDescription": "Mandarin Orange Chicken",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "egg",
+     "allergyID": 2,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 424,
+   "recipeServingID": 426,
+   "menuDescription": "Sunwise Bistro Box",
+   "sequenceNumber": 5,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 7,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 362,
+   "recipeServingID": 364,
+   "menuDescription": "Fruit Variety",
+   "sequenceNumber": 8,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 389,
+   "recipeServingID": 391,
+   "menuDescription": "Milk, 1% Fat Chocolate Carton",
+   "sequenceNumber": 8,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 267,
+   "recipeServingID": 268,
+   "menuDescription": "Wheat Crackers",
+   "sequenceNumber": 18,
+   "allergyList": [
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 256,
+   "recipeServingID": 257,
+   "menuDescription": "Tajin Seasoning LS",
+   "sequenceNumber": 19,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 67,
+   "recipeServingID": 67,
+   "menuDescription": "Breaded Chicken Sandwich",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 422,
+   "recipeServingID": 424,
+   "menuDescription": " Beef Quesadilla",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 89,
+   "recipeServingID": 89,
+   "menuDescription": "Mozz Breadsticks",
+   "sequenceNumber": 5,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 362,
+   "recipeServingID": 364,
+   "menuDescription": "Fruit Variety",
+   "sequenceNumber": 8,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 10,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 389,
+   "recipeServingID": 391,
+   "menuDescription": "Milk, 1% Fat Chocolate Carton",
+   "sequenceNumber": 11,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 267,
+   "recipeServingID": 268,
+   "menuDescription": "Wheat Crackers",
+   "sequenceNumber": 21,
+   "allergyList": [
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 256,
+   "recipeServingID": 257,
+   "menuDescription": "Tajin Seasoning LS",
+   "sequenceNumber": 22,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 454,
+   "recipeServingID": 456,
+   "menuDescription": "Rosy Moji Frozen 100% Fruit Juice",
+   "sequenceNumber": 24,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 123,
+   "recipeServingID": 123,
+   "menuDescription": "Turkey Pepperoni Pizza",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 435,
+   "recipeServingID": 437,
+   "menuDescription": "Hummus & Pita Bread Plate",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "sesame",
+     "allergyID": 9,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 185,
+   "recipeServingID": 185,
+   "menuDescription": "Macaroni & Cheese",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "egg",
+     "allergyID": 2,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 431,
+   "recipeServingID": 433,
+   "menuDescription": "Garlic Knot ",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 362,
+   "recipeServingID": 364,
+   "menuDescription": "Fruit Variety",
+   "sequenceNumber": 6,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 9,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 389,
+   "recipeServingID": 391,
+   "menuDescription": "Milk, 1% Fat Chocolate Carton",
+   "sequenceNumber": 10,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 267,
+   "recipeServingID": 268,
+   "menuDescription": "Wheat Crackers",
+   "sequenceNumber": 20,
+   "allergyList": [
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 256,
+   "recipeServingID": 257,
+   "menuDescription": "Tajin Seasoning LS",
+   "sequenceNumber": 21,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 122,
+   "recipeServingID": 122,
+   "menuDescription": "Cheeseburger",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 68,
+   "recipeServingID": 68,
+   "menuDescription": "Hamburger",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 124,
+   "recipeServingID": 124,
+   "menuDescription": "Spaghetti w/Meat (Beef) Sauce",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "egg",
+     "allergyID": 2,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 157,
+   "recipeServingID": 157,
+   "menuDescription": "Spaghetti w/Meat (Beef) Sauce",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "egg",
+     "allergyID": 2,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 125,
+   "recipeServingID": 125,
+   "menuDescription": "Grilled Cheese Sandwich",
+   "sequenceNumber": 5,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 219,
+   "recipeServingID": 220,
+   "menuDescription": "Banana",
+   "sequenceNumber": 7,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 362,
+   "recipeServingID": 364,
+   "menuDescription": "Fruit Variety",
+   "sequenceNumber": 8,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 11,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 389,
+   "recipeServingID": 391,
+   "menuDescription": "Milk, 1% Fat Chocolate Carton",
+   "sequenceNumber": 12,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 267,
+   "recipeServingID": 268,
+   "menuDescription": "Wheat Crackers",
+   "sequenceNumber": 22,
+   "allergyList": [
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 256,
+   "recipeServingID": 257,
+   "menuDescription": "Tajin Seasoning LS",
+   "sequenceNumber": 23,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 190,
+   "recipeServingID": 191,
+   "menuDescription": "Chicken Nuggets",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 324,
+   "recipeServingID": 326,
+   "menuDescription": "Teriyaki Chicken & Rice",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "sesame",
+     "allergyID": 9,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 55,
+   "recipeServingID": 55,
+   "menuDescription": "Yogurt Parfait",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 308,
+   "recipeServingID": 310,
+   "menuDescription": "Blueberry Vanilla Bites",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 362,
+   "recipeServingID": 364,
+   "menuDescription": "Fruit Variety",
+   "sequenceNumber": 6,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 419,
+   "recipeServingID": 421,
+   "menuDescription": "Waffle Fries",
+   "sequenceNumber": 7,
+   "allergyList": [
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 9,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 389,
+   "recipeServingID": 391,
+   "menuDescription": "Milk, 1% Fat Chocolate Carton",
+   "sequenceNumber": 10,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 267,
+   "recipeServingID": 268,
+   "menuDescription": "Wheat Crackers",
+   "sequenceNumber": 20,
+   "allergyList": [
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Elementary Lunch  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Elementary Lunch ",
+   "menuNameID": 114,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 256,
+   "recipeServingID": 257,
+   "menuDescription": "Tajin Seasoning LS",
+   "sequenceNumber": 21,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 57,
+   "recipeServingID": 57,
+   "menuDescription": "Cheese Pizza Slice",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 161,
+   "recipeServingID": 161,
+   "menuDescription": "Sunwise Crustless Sandwich",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 9,
+   "recipeServingID": 9,
+   "menuDescription": "Yogurt Trix Straw Banana ",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 155,
+   "recipeServingID": 155,
+   "menuDescription": "Steamed Carrot Sticks",
+   "sequenceNumber": 4,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 181,
+   "recipeServingID": 181,
+   "menuDescription": "Pears, Diced",
+   "sequenceNumber": 5,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 6,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 67,
+   "recipeServingID": 67,
+   "menuDescription": "Breaded Chicken Sandwich",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 89,
+   "recipeServingID": 89,
+   "menuDescription": "Mozz Breadsticks",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 184,
+   "recipeServingID": 184,
+   "menuDescription": "Orange Slices",
+   "sequenceNumber": 5,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 6,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 441,
+   "recipeServingID": 443,
+   "menuDescription": "Jonny Pops Mini Organic Popsicles",
+   "sequenceNumber": 8,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 435,
+   "recipeServingID": 437,
+   "menuDescription": "Hummus & Pita Bread Plate",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "sesame",
+     "allergyID": 9,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 92,
+   "recipeServingID": 92,
+   "menuDescription": "Macaroni & Cheese",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "egg",
+     "allergyID": 2,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 155,
+   "recipeServingID": 155,
+   "menuDescription": "Steamed Carrot Sticks",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 181,
+   "recipeServingID": 181,
+   "menuDescription": "Pears, Diced",
+   "sequenceNumber": 5,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 6,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 122,
+   "recipeServingID": 122,
+   "menuDescription": "Cheeseburger",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 68,
+   "recipeServingID": 68,
+   "menuDescription": "Hamburger",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 125,
+   "recipeServingID": 125,
+   "menuDescription": "Grilled Cheese Sandwich",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 219,
+   "recipeServingID": 220,
+   "menuDescription": "Banana",
+   "sequenceNumber": 6,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 7,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 94,
+   "recipeServingID": 94,
+   "menuDescription": "Chicken Nuggets",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 55,
+   "recipeServingID": 55,
+   "menuDescription": "Yogurt Parfait",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 308,
+   "recipeServingID": 310,
+   "menuDescription": "Blueberry Vanilla Bites",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 419,
+   "recipeServingID": 421,
+   "menuDescription": "Waffle Fries",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 184,
+   "recipeServingID": 184,
+   "menuDescription": "Orange Slices",
+   "sequenceNumber": 6,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "L - Soft Foods Lunch 3-4 YO, PREK  - Adams Elementary-3 - Lunch",
+   "menuName": "L - Soft Foods Lunch 3-4 YO, PREK ",
+   "menuNameID": 25,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 7,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 83,
+   "recipeServingID": 83,
+   "menuDescription": "Double Dogs (Chicken) ",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 7,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 389,
+   "recipeServingID": 391,
+   "menuDescription": "Milk, 1% Fat Chocolate Carton",
+   "sequenceNumber": 8,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 388,
+   "recipeServingID": 390,
+   "menuDescription": "Cheesy Pull-Aparts",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 50,
+   "recipeServingID": 50,
+   "menuDescription": "Raisins, Sour Watermelon",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 88,
+   "recipeServingID": 88,
+   "menuDescription": "Slush, Berry Berry Blue",
+   "sequenceNumber": 5,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 389,
+   "recipeServingID": 391,
+   "menuDescription": "Milk, 1% Fat Chocolate Carton",
+   "sequenceNumber": 5,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 84,
+   "recipeServingID": 84,
+   "menuDescription": "Cheeseburger Sliders ",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 217,
+   "recipeServingID": 218,
+   "menuDescription": "Mayonnaise Packet",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "egg",
+     "allergyID": 2,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 46,
+   "recipeServingID": 46,
+   "menuDescription": "Apple Slices",
+   "sequenceNumber": 4,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 6,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 389,
+   "recipeServingID": 391,
+   "menuDescription": "Milk, 1% Fat Chocolate Carton",
+   "sequenceNumber": 7,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 304,
+   "recipeServingID": 306,
+   "menuDescription": "Tony's Pepperoni Pizza (Turkey & Beef) ",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "soy",
+     "allergyID": 8,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "wheat",
+     "allergyID": 7,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 5,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 389,
+   "recipeServingID": 391,
+   "menuDescription": "Milk, 1% Fat Chocolate Carton",
+   "sequenceNumber": 6,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 213,
+   "recipeServingID": 214,
+   "menuDescription": "Cantaloupe",
+   "sequenceNumber": 8,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-08T00:00:00",
+   "menuDate": "2026-10-08"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 25,
+   "recipeServingID": 25,
+   "menuDescription": "Cinnamon Rice Chex",
+   "sequenceNumber": 1,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 9,
+   "recipeServingID": 9,
+   "menuDescription": "Yogurt Trix Straw Banana ",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 29,
+   "recipeServingID": 29,
+   "menuDescription": "Mozzarella String Cheese",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 50,
+   "recipeServingID": 50,
+   "menuDescription": "Raisins, Sour Watermelon",
+   "sequenceNumber": 5,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 390,
+   "recipeServingID": 392,
+   "menuDescription": "Milk, White, 2% Carton ",
+   "sequenceNumber": 8,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  },
+  {
+   "groupName": "S - Hot Supper K-5 - Adams Elementary-3 - Supper",
+   "menuName": "S - Hot Supper K-5",
+   "menuNameID": 33,
+   "schoolID": 20,
+   "schoolName": "Adams Elementary-3",
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 389,
+   "recipeServingID": 391,
+   "menuDescription": "Milk, 1% Fat Chocolate Carton",
+   "sequenceNumber": 9,
+   "allergyList": [
+    {
+     "name": "milk",
+     "allergyID": 1,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": false,
+   "rawDate": "2026-10-09T00:00:00",
+   "menuDate": "2026-10-09"
+  }
+ ],
+ "holidays": []
+}

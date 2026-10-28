@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "districts": [
+    {
+      "id": "0612880",
+      "name": "Escondido Union",
+      "state": "CA",
+      "platform": "etrition",
+      "params": {
+        "site": "Escondido",
+        "schoolTypeId": 1,
+        "districtOnly": true
+      },
+      "menus": [
+        {
+          "id": 2,
+          "name": "Elementary Breakfast",
+          "meal": "breakfast",
+          "grades": "K-5",
+          "primary": true
+        },
+        {
+          "id": 3,
+          "name": "Elementary Lunch",
+          "meal": "lunch",
+          "grades": "K-5",
+          "primary": true
+        }
+      ],
+      "wealth": {
+        "frpmPercent": {
+          "value": 72.6,
+          "year": "2025-26",
+          "source": "CDE Free or Reduced-Price Meal data 2025-26 (frpm2526.xlsx): FRPM count / enrollment, K-12, non-charter schools"
+        },
+        "medianHouseholdIncome": {
+          "value": 87874,
+          "year": "2019-23",
+          "source": "NCES ACS-ED district dashboard (ACS 5-year), nces.ed.gov/Programs/Edge/ACSDashboard/0612880 (all households)"
+        },
+        "parentsMedianHouseholdIncome": {
+          "value": 94086,
+          "year": "2019-23",
+          "source": "NCES ACS-ED district dashboard (ACS 5-year), nces.ed.gov/Programs/Edge/ACSDashboard/0612880 (households with public-school children)"
+        }
+      },
+      "addedSugarEstimates": [
+        {
+          "sourceId": "4831",
+          "item": "Fat Free Chocolate Milk",
+          "addedSugarG": 7,
+          "basis": "Escondido publishes no added sugar for it (null, breakfast and lunch). Its nutrition facts (111.1 kcal, 18.0 g sugars, 8.0 g protein, 135.0 mg sodium) match Del Mar Union's Fat Free Chocolate Milk (110, 18, 8, 135), for which Del Mar publishes 7 g added sugar, and the Hollandia Dairy spec sheet Del Mar posts for it (110 kcal, 18 g sugars, 8 g protein, 135 mg sodium per 8 fl oz; QC date 2017-10-17, no Added Sugars line): https://www.dmusd.org/documents/Parents--Community/Student-Nutrition-Program/Additional-Links/Fat%20Free%20Chocolate%20Milk.pdf. San Diego Unified publishes 7 g for its 1% chocolate milk (120 kcal, 18 g sugars). Bubba chose this estimate 2026-10-15, until Escondido publishes its own."
+        },
+        {
+          "sourceId": "4706",
+          "item": "Pan Dulce Assorted",
+          "addedSugarG": 7,
+          "published": 0,
+          "basis": "Escondido publishes 0 g added sugar (its menu panel shows 0 g too, checked 2026-10-15). On every value all three districts publish, it matches San Diego Unified's Concha (Mexican Sweet Bread, 2.25 oz) and Del Mar Union's Pan Dulce Variety (200 kcal, 1.5 g saturated fat, 90 mg sodium, 2 g fiber, 8 g total sugars, 5 g protein), and both publish 7 g added sugar. No maker's label found. Added 2026-10-15."
+        }
+      ]
+    },
+    {
+      "id": "0634320",
+      "name": "San Diego Unified",
+      "state": "CA",
+      "platform": "etrition",
+      "params": {
+        "site": "SDUSDNutrition",
+        "schoolTypeId": 1,
+        "districtOnly": false,
+        "schoolId": 20
+      },
+      "entreeCategories": [
+        "Meat/Meat Alternate",
+        "Heat and Serve",
+        "Poultry",
+        "IW (individually wrapped)"
+      ],
+      "note": "Menus are published per school (DistrictOnly=true returns 0 rows), so one representative elementary is queried: schoolId 20 (Adams Elementary). Why it: the 2026-10-08 probe used it. Assumes SDUSD elementary menus are district-standard and that schoolTypeId 1 (elementary) applies with a SchoolID (both UNVERIFIED until a live run / a second school is compared). entreeCategories: SDUSD files main dishes under Meat/Meat Alternate, Heat and Serve and Poultry; IW (individually wrapped) holds the breakfast muffin, concha and pancake bites, the only main item on 30 of 34 breakfast days with one (2026-10-08 data). IW is a packaging label, not a role: recheck if a wrapped side appears. This note never leaves the repo; published output names the district only.",
+      "menus": [
+        {
+          "id": 2,
+          "name": "Breakfast in the Classroom",
+          "meal": "breakfast",
+          "grades": "K-5",
+          "primary": true
+        },
+        {
+          "id": 114,
+          "name": "Elementary Lunch",
+          "meal": "lunch",
+          "grades": "K-5",
+          "primary": true
+        }
+      ],
+      "wealth": {
+        "frpmPercent": {
+          "value": 56.3,
+          "year": "2025-26",
+          "source": "CDE Free or Reduced-Price Meal data 2025-26 (frpm2526.xlsx): FRPM count / enrollment, K-12, non-charter schools"
+        },
+        "medianHouseholdIncome": {
+          "value": 98076,
+          "year": "2019-23",
+          "source": "NCES ACS-ED district dashboard (ACS 5-year), nces.ed.gov/Programs/Edge/ACSDashboard/0634320 (all households)"
+        },
+        "parentsMedianHouseholdIncome": {
+          "value": 106907,
+          "year": "2019-23",
+          "source": "NCES ACS-ED district dashboard (ACS 5-year), nces.ed.gov/Programs/Edge/ACSDashboard/0634320 (households with public-school children)"
+        }
+      }
+    },
+    {
+      "id": "0610740",
+      "name": "Del Mar Union",
+      "state": "CA",
+      "platform": "schoolcafe",
+      "params": {
+        "schoolId": "f86f2874-042e-4477-948d-00407a59d1c3",
+        "servingLine": "Main Line",
+        "maxDetails": 25,
+        "pauseMs": 1000
+      },
+      "note": "SchoolCafé menus are per school, so one representative elementary is queried: Ashley Falls (first in the district's school list; DMUSD is K-6 elementary only). Assumes DMUSD menus are district-standard (UNVERIFIED: compare a second school later). Nutrition comes from one detail call per item: <= 10 per run, 1 s apart, cached, so a new cache fills over ~5 school days. K-5 drives the federal calorie check (the menu doesn't separate 6th grade). NCES 0610740 from nces.ed.gov district search. This note never leaves the repo.",
+      "menus": [
+        {
+          "id": 1,
+          "mealType": "Breakfast",
+          "name": "Elementary Breakfast",
+          "meal": "breakfast",
+          "grades": "K-5",
+          "primary": true
+        },
+        {
+          "id": 2,
+          "mealType": "Lunch",
+          "name": "Elementary Lunch",
+          "meal": "lunch",
+          "grades": "K-5",
+          "primary": true
+        }
+      ],
+      "wealth": {
+        "frpmPercent": {
+          "value": 10.4,
+          "year": "2025-26",
+          "source": "CDE Free or Reduced-Price Meal data 2025-26 (frpm2526.xlsx): FRPM count / enrollment, K-12, non-charter schools"
+        },
+        "medianHouseholdIncome": {
+          "value": 196101,
+          "year": "2019-23",
+          "source": "NCES ACS-ED district dashboard (ACS 5-year), nces.ed.gov/Programs/Edge/ACSDashboard/0610740 (all households)"
+        },
+        "parentsMedianHouseholdIncome": {
+          "value": 250001,
+          "year": "2019-23",
+          "source": "NCES ACS-ED district dashboard (ACS 5-year), nces.ed.gov/Programs/Edge/ACSDashboard/0610740 (households with public-school children; 250,001 is the ACS top-code, i.e. $250,000 or more)"
+        }
+      },
+      "addedSugarEstimates": [
+        {
+          "sourceId": "146824",
+          "item": "Oatmeal Chocolate Chip Bar",
+          "addedSugarG": 19,
+          "published": 0,
+          "basis": "Del Mar publishes 0 g added sugar, but its menu lists the ingredient as \"BeneFIT Bar, Oatmeal Choc Chip\" (checked 2026-10-15). The maker's spec sheet (J&J Snack Foods, Readi-Bake BeneFIT, item 218914, GTIN 10073321404014, 2.5 oz bar; last saved 2026-05-21) lists 280 kcal, 20 g total sugars, includes 19 g added sugars; ingredients include sugar, chocolate chips, dextrose, invert sugar and molasses: https://sellsheets.syndigo.com/custom/food/7d45ee5a-43cf-42fd-9f43-de75f2edda2f/1963da42-c524-4511-bb71-59cd9255c668/218914. Del Mar's kcal, carbohydrate (47 g), fiber (3 g), total sugars and protein (5 g) match; fat, cholesterol and sodium differ slightly (9 vs 8 g, 20 vs 15 mg, 240 vs 230 mg). Added 2026-10-15."
+        }
+      ]
+    },
+    {
+      "id": "4808940",
+      "name": "Austin ISD",
+      "state": "TX",
+      "platform": "schoolcafe",
+      "params": {
+        "schoolId": "71b77ef2-e109-4dc0-81d8-a27e8f92a493",
+        "servingLine": "Lunch",
+        "maxDetails": 25,
+        "pauseMs": 1000
+      },
+      "note": "SchoolCafé menus are per school, so one representative elementary is queried: Baldwin. Austin ISD runs two elementary breakfasts: the cafeteria line (ServingLine \"Breakfast\") and Breakfast in the Classroom (\"BIC\", e.g. Allison), whose menu differs; BIC isn't tracked. Week of 2026-10-19: Baldwin's cafeteria breakfast and lunch matched another elementary's item for item, and its lunch matched Allison's; district-standard beyond that week is UNVERIFIED. Each meal has its own serving line, so breakfast overrides servingLine. School ids from GetSchoolsList?districtId=400. NCES 4808940 from nces.ed.gov district search. This note never leaves the repo.",
+      "menus": [
+        {
+          "id": 1,
+          "mealType": "Breakfast",
+          "servingLine": "Breakfast",
+          "name": "Elementary Breakfast",
+          "meal": "breakfast",
+          "grades": "K-5",
+          "primary": true
+        },
+        {
+          "id": 2,
+          "mealType": "Lunch",
+          "name": "Elementary Lunch",
+          "meal": "lunch",
+          "grades": "K-5",
+          "primary": true
+        }
+      ],
+      "wealth": {
+        "frpmPercent": {
+          "value": 50.9,
+          "year": "2024-25",
+          "source": "NCES Common Core of Data 2024-25 (educationdata.urban.org, leaid 4808940): students eligible for free or reduced-price lunch / enrollment (pre-K included), non-charter schools reporting both (117 of 123)"
+        },
+        "medianHouseholdIncome": {
+          "value": 90340,
+          "year": "2019-23",
+          "source": "NCES ACS-ED district dashboard (ACS 5-year), nces.ed.gov/Programs/Edge/ACSDashboard/4808940 (all households)"
+        },
+        "parentsMedianHouseholdIncome": {
+          "value": 114439,
+          "year": "2019-23",
+          "source": "NCES ACS-ED district dashboard (ACS 5-year), nces.ed.gov/Programs/Edge/ACSDashboard/4808940 (households with public-school children)"
+        }
+      }
+    },
+    {
+      "id": "4823640",
+      "name": "Houston ISD",
+      "state": "TX",
+      "platform": "schoolcafe",
+      "params": {
+        "schoolId": "5225d374-80be-4612-8da5-882502bd2c64",
+        "servingLine": "K-8 Lunch",
+        "maxDetails": 25,
+        "pauseMs": 1000
+      },
+      "note": "SchoolCafé menus are per school, so one representative elementary is queried: Almeda ES (first elementary in the district's school list). Serving lines differ per meal: 'Breakfast SS K-12' and 'K-8 Lunch' (plus Pre-K lines, not tracked), the same at Anderson ES. Week of 2026-10-19: Almeda's breakfast and lunch matched Anderson's item for item; district-standard beyond that is UNVERIFIED. SchoolCafé site HOUSTONISD (ISDId 32). Breakfast is free at every campus in 2026-27, lunch only at CEP campuses (houstonisd.org student-meals-overview, read 2026-10-22). NCES 4823640 from educationdata.urban.org. This note never leaves the repo. entreeCategories: Houston files main dishes under 'MEAT/MEAT ALTERNATE & GRAINS' (breakfast sandwiches, pizza, chicken poppers; checked 2026-10-23); 'MEAT/MEAT ALTERNATIVE' holds string cheese, yogurt and a smoothie, so it's left out.",
+      "menus": [
+        {
+          "id": 1,
+          "mealType": "Breakfast",
+          "servingLine": "Breakfast SS K-12",
+          "name": "Elementary Breakfast",
+          "meal": "breakfast",
+          "grades": "K-5",
+          "primary": true
+        },
+        {
+          "id": 2,
+          "mealType": "Lunch",
+          "name": "Elementary Lunch",
+          "meal": "lunch",
+          "grades": "K-5",
+          "primary": true
+        }
+      ],
+      "wealth": {
+        "frpmPercent": {
+          "value": 79.0,
+          "year": "2024-25",
+          "source": "NCES Common Core of Data 2024-25 (educationdata.urban.org, leaid 4823640): students eligible for free or reduced-price lunch / enrollment (pre-K included), non-charter schools reporting both (266 of 267). 9 schools report as many eligible students as enrolled, so this may run high"
+        },
+        "medianHouseholdIncome": {
+          "value": 65626,
+          "year": "2019-23",
+          "source": "NCES ACS-ED district dashboard (ACS 5-year), nces.ed.gov/Programs/Edge/ACSDashboard/4823640 (all households)"
+        },
+        "parentsMedianHouseholdIncome": {
+          "value": 59734,
+          "year": "2019-23",
+          "source": "NCES ACS-ED district dashboard (ACS 5-year), nces.ed.gov/Programs/Edge/ACSDashboard/4823640 (households with public-school children)"
+        }
+      },
+      "entreeCategories": ["MEAT/MEAT ALTERNATE & GRAINS"]
+    },
+    {
+      "id": "0803360",
+      "name": "Denver Public Schools",
+      "state": "CO",
+      "platform": "schoolcafe",
+      "params": {
+        "schoolId": "49ad20fe-d002-4c17-b0e9-39d0aa357ad8",
+        "servingLine": "Traditional Lunch",
+        "maxDetails": 25,
+        "pauseMs": 1000
+      },
+      "note": "SchoolCafé menus are per school, so one representative elementary is queried: Amesse. Lunch is 'Traditional Lunch' at every elementary probed; breakfast lines differ by school: 'Grab n Go Breakfast' at 7 of 10 elementaries probed 2026-10-22 (Amesse, Asbury, Ashley, Beach Court, Bromwell, Brown, Carson), Breakfast in the Classroom at 2 (Archuleta, Barnum), 'Traditional Breakfast' at 1 (Bradley); only Grab n Go is tracked. Week of 2026-10-19: Amesse matched Asbury item for item on both meals; district-standard beyond that is UNVERIFIED. SchoolCafé site dps (ISDId 1597). NCES 0803360 (School District No. 1 in the County of Denver) from educationdata.urban.org. This note never leaves the repo.",
+      "menus": [
+        {
+          "id": 1,
+          "mealType": "Breakfast",
+          "servingLine": "Grab n Go Breakfast",
+          "name": "Elementary Breakfast",
+          "meal": "breakfast",
+          "grades": "K-5",
+          "primary": true
+        },
+        {
+          "id": 2,
+          "mealType": "Lunch",
+          "name": "Elementary Lunch",
+          "meal": "lunch",
+          "grades": "K-5",
+          "primary": true
+        }
+      ],
+      "wealth": {
+        "frpmPercent": {
+          "value": 59.8,
+          "year": "2024-25",
+          "source": "NCES Common Core of Data 2024-25 (educationdata.urban.org, leaid 0803360): students eligible for free or reduced-price lunch / enrollment (pre-K included), non-charter schools reporting both (all 145)"
+        },
+        "medianHouseholdIncome": {
+          "value": 91681,
+          "year": "2019-23",
+          "source": "NCES ACS-ED district dashboard (ACS 5-year), nces.ed.gov/Programs/Edge/ACSDashboard/0803360 (all households)"
+        },
+        "parentsMedianHouseholdIncome": {
+          "value": 98891,
+          "year": "2019-23",
+          "source": "NCES ACS-ED district dashboard (ACS 5-year), nces.ed.gov/Programs/Edge/ACSDashboard/0803360 (households with public-school children)"
+        }
+      }
+    },
+    {
+      "id": "1201110",
+      "name": "Leon County Schools",
+      "state": "FL",
+      "platform": "schoolcafe",
+      "params": {
+        "schoolId": "29efe832-39ba-43d3-881d-276a343f2280",
+        "servingLine": "Main Line",
+        "maxDetails": 25,
+        "pauseMs": 1000
+      },
+      "note": "SchoolCafé menus are per school, so one representative elementary is queried: Astoria Park. 'Main Line' serves both meals there and at Bond; Apalachee's lunch line is 'Peanut Aware Line' instead, so it wasn't picked. Week of 2026-10-19: Astoria Park matched Bond item for item on both meals; district-standard beyond that is UNVERIFIED. SchoolCafé site LEONCOUNTYSCHOOLS (ISDId 4560). NCES 1201110 from educationdata.urban.org. This note never leaves the repo.",
+      "menus": [
+        {
+          "id": 1,
+          "mealType": "Breakfast",
+          "name": "Elementary Breakfast",
+          "meal": "breakfast",
+          "grades": "K-5",
+          "primary": true
+        },
+        {
+          "id": 2,
+          "mealType": "Lunch",
+          "name": "Elementary Lunch",
+          "meal": "lunch",
+          "grades": "K-5",
+          "primary": true
+        }
+      ],
+      "wealth": {
+        "frpmPercent": {
+          "value": 41.4,
+          "year": "2024-25",
+          "source": "NCES Common Core of Data 2024-25 (educationdata.urban.org, leaid 1201110): students eligible for free or reduced-price lunch / enrollment (pre-K included), non-charter schools reporting both (45 of 51)"
+        },
+        "medianHouseholdIncome": {
+          "value": 65074,
+          "year": "2019-23",
+          "source": "NCES ACS-ED district dashboard (ACS 5-year), nces.ed.gov/Programs/Edge/ACSDashboard/1201110 (all households)"
+        },
+        "parentsMedianHouseholdIncome": {
+          "value": 89426,
+          "year": "2019-23",
+          "source": "NCES ACS-ED district dashboard (ACS 5-year), nces.ed.gov/Programs/Edge/ACSDashboard/1201110 (households with public-school children)"
+        }
+      }
+    }
+  ]
+}

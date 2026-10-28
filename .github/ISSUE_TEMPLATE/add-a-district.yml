@@ -1,0 +1,54 @@
+name: Ask for a district
+description: Ask for your school district's breakfast and lunch menus to be added to the tracker.
+title: "Add a district: "
+labels: ["district request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for asking. Tell us which district it is and where it publishes its menus, and we'll check whether the tracker can follow it. You don't need to know anything about the code.
+
+        **District level only.** The tracker follows each district through one elementary school's menus, and it doesn't need to be your child's school. This issue is public, so please:
+        - leave out your child's name, school, grade, teacher, and anything else about your family;
+        - don't paste a list of the district's schools.
+
+        **Some menu apps can't be added.** If your district uses Nutrislice or MealViewer, you're welcome to ask anyway: we'll keep your issue open so the demand is on record. We can't add it, though: those apps' terms, as we read them, rule out automated collection and republishing of their menus.
+  - type: input
+    id: district
+    attributes:
+      label: District name
+      placeholder: e.g. Leon County Schools
+    validations:
+      required: true
+  - type: input
+    id: state
+    attributes:
+      label: State
+      placeholder: e.g. FL
+    validations:
+      required: true
+  - type: input
+    id: menu-page
+    attributes:
+      label: Link to the district's menu page
+      description: The page on the district's website where families find the school menus.
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: menu-app
+    attributes:
+      label: Menu app, if you know it
+      description: The menu page or its web address often names it.
+      options:
+        - SchoolCafé
+        - eTrition
+        - Nutrislice
+        - MealViewer
+        - PDF files only
+        - Other, or I don't know
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else?
+      description: For example, whether elementary schools in the district share one menu. No personal or family details, please.

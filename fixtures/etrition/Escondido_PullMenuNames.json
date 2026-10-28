@@ -1,0 +1,44 @@
+{
+ "records": [
+  {
+   "menuName": "Grace Christian Menu",
+   "menuNameID": 1
+  },
+  {
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2
+  },
+  {
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3
+  },
+  {
+   "menuName": "Middle Schools & Quantum Breakfast Menu",
+   "menuNameID": 4
+  },
+  {
+   "menuName": "Middle Schools & Quantum Lunch Menu",
+   "menuNameID": 5
+  },
+  {
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6
+  },
+  {
+   "menuName": "Snack Menu",
+   "menuNameID": 7
+  },
+  {
+   "menuName": "Preschool Breakfast Menu",
+   "menuNameID": 8
+  },
+  {
+   "menuName": "Preschool Lunch Menu",
+   "menuNameID": 9
+  },
+  {
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14
+  }
+ ]
+}

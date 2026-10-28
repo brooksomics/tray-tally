@@ -1,0 +1,5 @@
+.beads/
+fixtures/
+*.md
+data/
+dashboard/vendor/

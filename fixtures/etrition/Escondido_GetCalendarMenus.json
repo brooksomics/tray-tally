@@ -1,0 +1,4067 @@
+{
+ "records": [
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 4861,
+   "recipeServingID": 4804,
+   "menuDescription": "Peanut Butter & Strawberry Jelly Sandwich WGR",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Peanutbutter",
+     "allergyID": 142,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Peanuts",
+     "allergyID": 143,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 4792,
+   "recipeServingID": 4735,
+   "menuDescription": "Applesauce Cup ",
+   "sequenceNumber": 2,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 4824,
+   "recipeServingID": 4767,
+   "menuDescription": "Paradise Punch ",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 4844,
+   "recipeServingID": 4787,
+   "menuDescription": "Shelf Stable Chocolate Milk ",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 5032,
+   "recipeServingID": 4976,
+   "menuDescription": "White Shelf Stable Milk, 1%",
+   "sequenceNumber": 5,
+   "allergyList": [
+    {
+     "name": "Dairy",
+     "allergyID": 108,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 5005,
+   "recipeServingID": 4949,
+   "menuDescription": "2 Each String Cheese ",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Cheese",
+     "allergyID": 97,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Dairy",
+     "allergyID": 108,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 4756,
+   "recipeServingID": 4700,
+   "menuDescription": "Blueberry Pop Tart ",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 4827,
+   "recipeServingID": 4770,
+   "menuDescription": "Red Apple ",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 4824,
+   "recipeServingID": 4767,
+   "menuDescription": "Paradise Punch ",
+   "sequenceNumber": 4,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 4844,
+   "recipeServingID": 4787,
+   "menuDescription": "Shelf Stable Chocolate Milk ",
+   "sequenceNumber": 5,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 5032,
+   "recipeServingID": 4976,
+   "menuDescription": "White Shelf Stable Milk, 1%",
+   "sequenceNumber": 6,
+   "allergyList": [
+    {
+     "name": "Dairy",
+     "allergyID": 108,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 5006,
+   "recipeServingID": 4950,
+   "menuDescription": "Turkey & Cheese on a Hoagie Roll",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 4963,
+   "recipeServingID": 4907,
+   "menuDescription": "Banana",
+   "sequenceNumber": 2,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 4824,
+   "recipeServingID": 4767,
+   "menuDescription": "Paradise Punch ",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 4844,
+   "recipeServingID": 4787,
+   "menuDescription": "Shelf Stable Chocolate Milk ",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "After School Enrichment Menu - District - After School Enrichment",
+   "menuName": "After School Enrichment Menu",
+   "menuNameID": 14,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 13,
+   "sessionDescription": "After School Enrichment",
+   "recipeID": 5032,
+   "recipeServingID": 4976,
+   "menuDescription": "White Shelf Stable Milk, 1%",
+   "sequenceNumber": 5,
+   "allergyList": [
+    {
+     "name": "Dairy",
+     "allergyID": 108,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4796,
+   "recipeServingID": 4739,
+   "menuDescription": "Mini Cheese Burger/WGR",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4817,
+   "recipeServingID": 4760,
+   "menuDescription": "Chicken Tamale w/ Green Sauce WGR",
+   "sequenceNumber": 2,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4803,
+   "recipeServingID": 4746,
+   "menuDescription": "Green Chili & Cheese Tamale WGR",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "Dairy",
+     "allergyID": 108,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4807,
+   "recipeServingID": 4750,
+   "menuDescription": "Jicama sticks ",
+   "sequenceNumber": 6,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 5033,
+   "recipeServingID": 4977,
+   "menuDescription": "Asian Pear",
+   "sequenceNumber": 6,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4657,
+   "recipeServingID": 4602,
+   "menuDescription": "Ketchup Packet ",
+   "sequenceNumber": 9,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 5201,
+   "recipeServingID": 5145,
+   "menuDescription": "Cherry Wiggles Gel Cup",
+   "sequenceNumber": 9,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4786,
+   "recipeServingID": 4729,
+   "menuDescription": "Kidney Beans ",
+   "sequenceNumber": 10,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4830,
+   "recipeServingID": 4773,
+   "menuDescription": "1% White  Milk ",
+   "sequenceNumber": 13,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4831,
+   "recipeServingID": 4774,
+   "menuDescription": "Fat Free Chocolate Milk",
+   "sequenceNumber": 14,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4939,
+   "recipeServingID": 4883,
+   "menuDescription": "Crispy Chicken Tacos WGR",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 5159,
+   "recipeServingID": 5103,
+   "menuDescription": "Beef Salami, Cheddar Cheese Cup w/Cracker WGR",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4776,
+   "recipeServingID": 4719,
+   "menuDescription": "Mini Sweet Peppers ",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4736,
+   "recipeServingID": 4681,
+   "menuDescription": "Cherry Tomatoes ",
+   "sequenceNumber": 4,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4762,
+   "recipeServingID": 4705,
+   "menuDescription": "Diced Peaches ",
+   "sequenceNumber": 5,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4702,
+   "recipeServingID": 4647,
+   "menuDescription": "Sliced Apples ",
+   "sequenceNumber": 6,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4738,
+   "recipeServingID": 4683,
+   "menuDescription": "Jalapenos ",
+   "sequenceNumber": 7,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4830,
+   "recipeServingID": 4773,
+   "menuDescription": "1% White  Milk ",
+   "sequenceNumber": 11,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4831,
+   "recipeServingID": 4774,
+   "menuDescription": "Fat Free Chocolate Milk",
+   "sequenceNumber": 12,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4806,
+   "recipeServingID": 4749,
+   "menuDescription": "Cheese Pizza . WGR",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4810,
+   "recipeServingID": 4753,
+   "menuDescription": "Pizza, Pepperoni WGR",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4805,
+   "recipeServingID": 4748,
+   "menuDescription": "PB & J Grape Sandwich WGR",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "Peanutbutter",
+     "allergyID": 142,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Peanuts",
+     "allergyID": 143,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4742,
+   "recipeServingID": 4687,
+   "menuDescription": "Baby Carrots ",
+   "sequenceNumber": 4,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4969,
+   "recipeServingID": 4913,
+   "menuDescription": "Sliced Persian Cucumber ",
+   "sequenceNumber": 5,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 5199,
+   "recipeServingID": 5143,
+   "menuDescription": "Spicy Watermelon Amazin Raising",
+   "sequenceNumber": 7,
+   "allergyList": [
+    {
+     "name": "ALLERGEN FREE",
+     "allergyID": 314,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4730,
+   "recipeServingID": 4675,
+   "menuDescription": "Orange Smiles ",
+   "sequenceNumber": 8,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4830,
+   "recipeServingID": 4773,
+   "menuDescription": "1% White  Milk ",
+   "sequenceNumber": 10,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "All Sites Supper Menu - District - Supper",
+   "menuName": "All Sites Supper Menu",
+   "menuNameID": 6,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 5,
+   "sessionDescription": "Supper",
+   "recipeID": 4831,
+   "recipeServingID": 4774,
+   "menuDescription": "Fat Free Chocolate Milk",
+   "sequenceNumber": 11,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4938,
+   "recipeServingID": 4882,
+   "menuDescription": "Cake,Crumb",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Eggs",
+     "allergyID": 110,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Nuts",
+     "allergyID": 135,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy Beans",
+     "allergyID": 197,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 5197,
+   "recipeServingID": 5141,
+   "menuDescription": "Homerun Breakfast Sausage, Pancake & Eggs",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "Egg Product/Ingredient",
+     "allergyID": 111,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Eggs",
+     "allergyID": 110,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4700,
+   "recipeServingID": 4645,
+   "menuDescription": "Honey Cheerios",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 5033,
+   "recipeServingID": 4977,
+   "menuDescription": "Asian Pear",
+   "sequenceNumber": 5,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4774,
+   "recipeServingID": 4717,
+   "menuDescription": "Apple Juice ",
+   "sequenceNumber": 6,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4831,
+   "recipeServingID": 4774,
+   "menuDescription": "Fat Free Chocolate Milk",
+   "sequenceNumber": 7,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4830,
+   "recipeServingID": 4773,
+   "menuDescription": "1% White  Milk ",
+   "sequenceNumber": 8,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4746,
+   "recipeServingID": 4691,
+   "menuDescription": "Chicken Sausage, Cheese Waffle Sandwich",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Eggs",
+     "allergyID": 110,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 5067,
+   "recipeServingID": 5011,
+   "menuDescription": "Vanilla & Chocolate Chip Breakfast Breads",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Dairy",
+     "allergyID": 108,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Eggs",
+     "allergyID": 110,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4704,
+   "recipeServingID": 4649,
+   "menuDescription": "Cinnamon Toast Crunch",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4702,
+   "recipeServingID": 4647,
+   "menuDescription": "Sliced Apples ",
+   "sequenceNumber": 5,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4762,
+   "recipeServingID": 4705,
+   "menuDescription": "Diced Peaches ",
+   "sequenceNumber": 6,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4831,
+   "recipeServingID": 4774,
+   "menuDescription": "Fat Free Chocolate Milk",
+   "sequenceNumber": 7,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4830,
+   "recipeServingID": 4773,
+   "menuDescription": "1% White  Milk ",
+   "sequenceNumber": 8,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 5148,
+   "recipeServingID": 5092,
+   "menuDescription": "Mixed Berry Breakfast Parfait",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 5043,
+   "recipeServingID": 4987,
+   "menuDescription": "Chicken Maple Sausage Bites with Graham",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4955,
+   "recipeServingID": 4899,
+   "menuDescription": "Trix Cereal",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4777,
+   "recipeServingID": 4720,
+   "menuDescription": "Diced Pears ",
+   "sequenceNumber": 5,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4730,
+   "recipeServingID": 4675,
+   "menuDescription": "Orange Smiles ",
+   "sequenceNumber": 6,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4831,
+   "recipeServingID": 4774,
+   "menuDescription": "Fat Free Chocolate Milk",
+   "sequenceNumber": 7,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Elementary Breakfast Menu",
+   "menuNameID": 2,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4830,
+   "recipeServingID": 4773,
+   "menuDescription": "1% White  Milk ",
+   "sequenceNumber": 8,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 5122,
+   "recipeServingID": 5066,
+   "menuDescription": "Turkey & Cheese Croissant",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4606,
+   "recipeServingID": 4551,
+   "menuDescription": "Nacho Cheese & Chips-GF",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4976,
+   "recipeServingID": 4920,
+   "menuDescription": "BBQ Drumstick & Pretzel",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4864,
+   "recipeServingID": 4807,
+   "menuDescription": "Breaded Chicken Drumstick & Pretzel",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4734,
+   "recipeServingID": 4679,
+   "menuDescription": "Baby Carrots ",
+   "sequenceNumber": 6,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4742,
+   "recipeServingID": 4687,
+   "menuDescription": "Baby Carrots ",
+   "sequenceNumber": 7,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 5033,
+   "recipeServingID": 4977,
+   "menuDescription": "Asian Pear",
+   "sequenceNumber": 7,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4720,
+   "recipeServingID": 4665,
+   "menuDescription": "Garden Fresh Salad ",
+   "sequenceNumber": 7,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4807,
+   "recipeServingID": 4750,
+   "menuDescription": "Jicama sticks ",
+   "sequenceNumber": 8,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4786,
+   "recipeServingID": 4729,
+   "menuDescription": "Kidney Beans ",
+   "sequenceNumber": 9,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4475,
+   "recipeServingID": 4420,
+   "menuDescription": "Ranch Dressing ",
+   "sequenceNumber": 11,
+   "allergyList": [
+    {
+     "name": "Eggs",
+     "allergyID": 110,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4774,
+   "recipeServingID": 4717,
+   "menuDescription": "Apple Juice ",
+   "sequenceNumber": 12,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4831,
+   "recipeServingID": 4774,
+   "menuDescription": "Fat Free Chocolate Milk",
+   "sequenceNumber": 12,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4830,
+   "recipeServingID": 4773,
+   "menuDescription": "1% White  Milk ",
+   "sequenceNumber": 13,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4455,
+   "recipeServingID": 4400,
+   "menuDescription": "Macaroni & Cheese w/Roll",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Dairy",
+     "allergyID": 108,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4939,
+   "recipeServingID": 4883,
+   "menuDescription": "Crispy Chicken Tacos WGR",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4861,
+   "recipeServingID": 4804,
+   "menuDescription": "Peanut Butter & Strawberry Jelly Sandwich WGR",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "Peanutbutter",
+     "allergyID": 142,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Peanuts",
+     "allergyID": 143,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4762,
+   "recipeServingID": 4705,
+   "menuDescription": "Diced Peaches ",
+   "sequenceNumber": 5,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4702,
+   "recipeServingID": 4647,
+   "menuDescription": "Sliced Apples ",
+   "sequenceNumber": 6,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4736,
+   "recipeServingID": 4681,
+   "menuDescription": "Cherry Tomatoes ",
+   "sequenceNumber": 7,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4776,
+   "recipeServingID": 4719,
+   "menuDescription": "Mini Sweet Peppers ",
+   "sequenceNumber": 8,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 5185,
+   "recipeServingID": 5129,
+   "menuDescription": "Street Corn",
+   "sequenceNumber": 9,
+   "allergyList": [
+    {
+     "name": "Cheese",
+     "allergyID": 97,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Dairy",
+     "allergyID": 108,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Eggs",
+     "allergyID": 110,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4475,
+   "recipeServingID": 4420,
+   "menuDescription": "Ranch Dressing ",
+   "sequenceNumber": 10,
+   "allergyList": [
+    {
+     "name": "Eggs",
+     "allergyID": 110,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 5200,
+   "recipeServingID": 5144,
+   "menuDescription": "Strawberry Wiggles",
+   "sequenceNumber": 11,
+   "allergyList": [
+    {
+     "name": "Strawberry",
+     "allergyID": 172,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4831,
+   "recipeServingID": 4774,
+   "menuDescription": "Fat Free Chocolate Milk",
+   "sequenceNumber": 11,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4830,
+   "recipeServingID": 4773,
+   "menuDescription": "1% White  Milk ",
+   "sequenceNumber": 12,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 5226,
+   "recipeServingID": 5170,
+   "menuDescription": "Baked Chicken w/ Cracker",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4543,
+   "recipeServingID": 4488,
+   "menuDescription": "Strawberry Yogurt Parfait WGR",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Strawberry",
+     "allergyID": 172,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4977,
+   "recipeServingID": 4921,
+   "menuDescription": "Boneless Chicken Nugget Chunk w /Cheez It WGR",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4759,
+   "recipeServingID": 4703,
+   "menuDescription": "Applesauce ",
+   "sequenceNumber": 4,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4730,
+   "recipeServingID": 4675,
+   "menuDescription": "Orange Smiles ",
+   "sequenceNumber": 5,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4734,
+   "recipeServingID": 4679,
+   "menuDescription": "Baby Carrots ",
+   "sequenceNumber": 6,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4742,
+   "recipeServingID": 4687,
+   "menuDescription": "Baby Carrots ",
+   "sequenceNumber": 7,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4526,
+   "recipeServingID": 4471,
+   "menuDescription": "Caesar Salad ",
+   "sequenceNumber": 7,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 5187,
+   "recipeServingID": 5131,
+   "menuDescription": "Persian Cucumber Asian Salad",
+   "sequenceNumber": 8,
+   "allergyList": [
+    {
+     "name": "Sesame Seeds",
+     "allergyID": 156,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4475,
+   "recipeServingID": 4420,
+   "menuDescription": "Ranch Dressing ",
+   "sequenceNumber": 9,
+   "allergyList": [
+    {
+     "name": "Eggs",
+     "allergyID": 110,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4678,
+   "recipeServingID": 4623,
+   "menuDescription": "Barbeque Sauce ",
+   "sequenceNumber": 10,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4831,
+   "recipeServingID": 4774,
+   "menuDescription": "Fat Free Chocolate Milk",
+   "sequenceNumber": 11,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Elementary Lunch Menu - Elementary - Lunch",
+   "menuName": "Elementary Lunch Menu",
+   "menuNameID": 3,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4830,
+   "recipeServingID": 4773,
+   "menuDescription": "1% White  Milk ",
+   "sequenceNumber": 12,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Preschool Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Preschool Breakfast Menu",
+   "menuNameID": 8,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4704,
+   "recipeServingID": 4649,
+   "menuDescription": "Cinnamon Toast Crunch",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Preschool Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Preschool Breakfast Menu",
+   "menuNameID": 8,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 5033,
+   "recipeServingID": 4977,
+   "menuDescription": "Asian Pear",
+   "sequenceNumber": 2,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Preschool Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Preschool Breakfast Menu",
+   "menuNameID": 8,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4995,
+   "recipeServingID": 4939,
+   "menuDescription": "1/2 Gallon 1% Lowfat Milk",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Preschool Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Preschool Breakfast Menu",
+   "menuNameID": 8,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4746,
+   "recipeServingID": 4691,
+   "menuDescription": "Chicken Sausage, Cheese Waffle Sandwich",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Eggs",
+     "allergyID": 110,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Preschool Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Preschool Breakfast Menu",
+   "menuNameID": 8,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4762,
+   "recipeServingID": 4705,
+   "menuDescription": "Diced Peaches ",
+   "sequenceNumber": 2,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Preschool Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Preschool Breakfast Menu",
+   "menuNameID": 8,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4995,
+   "recipeServingID": 4939,
+   "menuDescription": "1/2 Gallon 1% Lowfat Milk",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Preschool Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Preschool Breakfast Menu",
+   "menuNameID": 8,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 5148,
+   "recipeServingID": 5092,
+   "menuDescription": "Mixed Berry Breakfast Parfait",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Preschool Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Preschool Breakfast Menu",
+   "menuNameID": 8,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4730,
+   "recipeServingID": 4675,
+   "menuDescription": "Orange Smiles ",
+   "sequenceNumber": 2,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Preschool Breakfast Menu - Elementary - Breakfast",
+   "menuName": "Preschool Breakfast Menu",
+   "menuNameID": 8,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 1,
+   "sessionDescription": "Breakfast",
+   "recipeID": 4995,
+   "recipeServingID": 4939,
+   "menuDescription": "1/2 Gallon 1% Lowfat Milk",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Preschool Lunch Menu - Elementary - Lunch",
+   "menuName": "Preschool Lunch Menu",
+   "menuNameID": 9,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4976,
+   "recipeServingID": 4920,
+   "menuDescription": "BBQ Drumstick & Pretzel",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Preschool Lunch Menu - Elementary - Lunch",
+   "menuName": "Preschool Lunch Menu",
+   "menuNameID": 9,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4807,
+   "recipeServingID": 4750,
+   "menuDescription": "Jicama sticks ",
+   "sequenceNumber": 2,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Preschool Lunch Menu - Elementary - Lunch",
+   "menuName": "Preschool Lunch Menu",
+   "menuNameID": 9,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 5033,
+   "recipeServingID": 4977,
+   "menuDescription": "Asian Pear",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Preschool Lunch Menu - Elementary - Lunch",
+   "menuName": "Preschool Lunch Menu",
+   "menuNameID": 9,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4995,
+   "recipeServingID": 4939,
+   "menuDescription": "1/2 Gallon 1% Lowfat Milk",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Preschool Lunch Menu - Elementary - Lunch",
+   "menuName": "Preschool Lunch Menu",
+   "menuNameID": 9,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4455,
+   "recipeServingID": 4400,
+   "menuDescription": "Macaroni & Cheese w/Roll",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Dairy",
+     "allergyID": 108,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Preschool Lunch Menu - Elementary - Lunch",
+   "menuName": "Preschool Lunch Menu",
+   "menuNameID": 9,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4702,
+   "recipeServingID": 4647,
+   "menuDescription": "Sliced Apples ",
+   "sequenceNumber": 2,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Preschool Lunch Menu - Elementary - Lunch",
+   "menuName": "Preschool Lunch Menu",
+   "menuNameID": 9,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4736,
+   "recipeServingID": 4681,
+   "menuDescription": "Cherry Tomatoes ",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Preschool Lunch Menu - Elementary - Lunch",
+   "menuName": "Preschool Lunch Menu",
+   "menuNameID": 9,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4995,
+   "recipeServingID": 4939,
+   "menuDescription": "1/2 Gallon 1% Lowfat Milk",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Preschool Lunch Menu - Elementary - Lunch",
+   "menuName": "Preschool Lunch Menu",
+   "menuNameID": 9,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4977,
+   "recipeServingID": 4921,
+   "menuDescription": "Boneless Chicken Nugget Chunk w /Cheez It WGR",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Soy",
+     "allergyID": 171,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Preschool Lunch Menu - Elementary - Lunch",
+   "menuName": "Preschool Lunch Menu",
+   "menuNameID": 9,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4969,
+   "recipeServingID": 4913,
+   "menuDescription": "Sliced Persian Cucumber ",
+   "sequenceNumber": 2,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Preschool Lunch Menu - Elementary - Lunch",
+   "menuName": "Preschool Lunch Menu",
+   "menuNameID": 9,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4730,
+   "recipeServingID": 4675,
+   "menuDescription": "Orange Smiles ",
+   "sequenceNumber": 3,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Preschool Lunch Menu - Elementary - Lunch",
+   "menuName": "Preschool Lunch Menu",
+   "menuNameID": 9,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": 1,
+   "schoolTypeDescription": "Elementary",
+   "sessionID": 2,
+   "sessionDescription": "Lunch",
+   "recipeID": 4995,
+   "recipeServingID": 4939,
+   "menuDescription": "1/2 Gallon 1% Lowfat Milk",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Snack Menu - District - Snack",
+   "menuName": "Snack Menu",
+   "menuNameID": 7,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 4,
+   "sessionDescription": "Snack",
+   "recipeID": 4914,
+   "recipeServingID": 4857,
+   "menuDescription": "Chip, Garden Salsa, Sun Chips",
+   "sequenceNumber": 3,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Snack Menu - District - Snack",
+   "menuName": "Snack Menu",
+   "menuNameID": 7,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 4,
+   "sessionDescription": "Snack",
+   "recipeID": 4844,
+   "recipeServingID": 4787,
+   "menuDescription": "Shelf Stable Chocolate Milk ",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-05T00:00:00",
+   "menuDate": "2026-10-05"
+  },
+  {
+   "groupName": "Snack Menu - District - Snack",
+   "menuName": "Snack Menu",
+   "menuNameID": 7,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 4,
+   "sessionDescription": "Snack",
+   "recipeID": 5133,
+   "recipeServingID": 5077,
+   "menuDescription": "Cheddar Goldfish Cracker",
+   "sequenceNumber": 1,
+   "allergyList": [
+    {
+     "name": "Dairy",
+     "allergyID": 108,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Gluten",
+     "allergyID": 116,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    },
+    {
+     "name": "Wheat",
+     "allergyID": 167,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Snack Menu - District - Snack",
+   "menuName": "Snack Menu",
+   "menuNameID": 7,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 4,
+   "sessionDescription": "Snack",
+   "recipeID": 5199,
+   "recipeServingID": 5143,
+   "menuDescription": "Spicy Watermelon Amazin Raising",
+   "sequenceNumber": 4,
+   "allergyList": [
+    {
+     "name": "ALLERGEN FREE",
+     "allergyID": 314,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-06T00:00:00",
+   "menuDate": "2026-10-06"
+  },
+  {
+   "groupName": "Snack Menu - District - Snack",
+   "menuName": "Snack Menu",
+   "menuNameID": 7,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 4,
+   "sessionDescription": "Snack",
+   "recipeID": 4932,
+   "recipeServingID": 4876,
+   "menuDescription": "Chocolate Chip, Cookie",
+   "sequenceNumber": 2,
+   "allergyList": [],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  },
+  {
+   "groupName": "Snack Menu - District - Snack",
+   "menuName": "Snack Menu",
+   "menuNameID": 7,
+   "schoolID": null,
+   "schoolName": null,
+   "schoolTypeID": null,
+   "schoolTypeDescription": null,
+   "sessionID": 4,
+   "sessionDescription": "Snack",
+   "recipeID": 4844,
+   "recipeServingID": 4787,
+   "menuDescription": "Shelf Stable Chocolate Milk ",
+   "sequenceNumber": 2,
+   "allergyList": [
+    {
+     "name": "Milk",
+     "allergyID": 130,
+     "allergenIDs": [
+      0
+     ]
+    }
+   ],
+   "allergyTypes": null,
+   "allergens": [],
+   "ingredientIDs": null,
+   "isMenuItem": true,
+   "isMenuBoard": true,
+   "rawDate": "2026-10-07T00:00:00",
+   "menuDate": "2026-10-07"
+  }
+ ],
+ "holidays": []
+}

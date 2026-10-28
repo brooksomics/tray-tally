@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>School Meal Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600;700&family=Archivo:wght@400;500;600&display=swap"
+    />
+    <style>
+      /* Layout: one reading column of report sections, each opened by a heavy
+         rule like a Nutrition Facts panel; charts scroll inside their box. */
+      :root {
+        --paper: #f6f7f4;
+        --panel: #ffffff;
+        --ink: #151915;
+        --muted: #5b635b;
+        --line: #d3d8d0;
+        --warn: #8f5600;
+        --accent: #2c6a4b;
+        --display:
+          "Archivo Narrow", "Arial Narrow", "Helvetica Neue", sans-serif;
+        --body: "Archivo", "Helvetica Neue", Arial, sans-serif;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-theme="light"]) {
+          --paper: #111411;
+          --panel: #171b17;
+          --ink: #e6eae3;
+          --muted: #a0a99f;
+          --line: #2b322b;
+          --warn: #e2b05a;
+          --accent: #79c29a;
+          color-scheme: dark;
+        }
+      }
+      :root[data-theme="dark"] {
+        --paper: #111411;
+        --panel: #171b17;
+        --ink: #e6eae3;
+        --muted: #a0a99f;
+        --line: #2b322b;
+        --warn: #e2b05a;
+        --accent: #79c29a;
+        color-scheme: dark;
+      }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font: 15px/1.55 var(--body);
+      }
+      main {
+        max-width: 1080px;
+        margin: 0 auto;
+        padding-inline: 16px;
+        padding-block: 24px 48px;
+        display: grid;
+        gap: 20px;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: var(--display);
+        font-weight: 700;
+        line-height: 1.1;
+        text-wrap: balance;
+        margin: 0;
+      }
+      h1 {
+        font-size: clamp(1.9rem, 5vw, 2.6rem);
+        letter-spacing: -0.01em;
+      }
+      h2 {
+        font-size: 1.45rem;
+      }
+      h3 {
+        font-size: 1.1rem;
+      }
+      header {
+        border-bottom: 10px solid var(--ink);
+        padding-bottom: 10px;
+      }
+      /* Notes run the full column, as wide as the charts, so more charts fit
+         on one screen. */
+      p {
+        margin: 0;
+      }
+      .muted,
+      .note,
+      footer {
+        color: var(--muted);
+      }
+      a {
+        color: var(--accent);
+      }
+      .caveat {
+        color: var(--warn);
+        font-size: 0.9rem;
+      }
+      section {
+        border-top: 6px solid var(--ink);
+        padding-top: 10px;
+        display: grid;
+        gap: 8px;
+        min-width: 0;
+      }
+      /* Filters fold to one line so the charts lead; the line says what's on. */
+      .filters {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 4px;
+      }
+      .filters summary {
+        padding: 8px 16px;
+        cursor: pointer;
+      }
+      .filters summary b {
+        font-family: var(--display);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        font-size: 0.78rem;
+        margin-right: 8px;
+      }
+      .filters[open] summary {
+        border-bottom: 1px solid var(--line);
+      }
+      legend button {
+        font: 500 0.8rem var(--body);
+        text-transform: none;
+        letter-spacing: 0;
+        margin-left: 10px;
+        padding: 1px 8px;
+        color: var(--accent);
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      form {
+        padding: 12px 16px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 28px;
+        align-items: end;
+      }
+      fieldset {
+        border: 0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 14px;
+        min-width: 0;
+      }
+      legend {
+        font-family: var(--display);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        font-size: 0.78rem;
+        margin-bottom: 4px;
+        width: 100%;
+      }
+      label {
+        display: inline-flex;
+        gap: 6px;
+        align-items: center;
+      }
+      input {
+        accent-color: var(--accent);
+        font: inherit;
+        color: var(--ink);
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 3px;
+      }
+      input:focus-visible,
+      button:focus-visible,
+      summary:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }
+      .chart {
+        overflow-x: auto;
+        min-width: 0;
+      }
+      /* Line labels: a halo in the page colour keeps them readable over data. */
+      .chart [aria-label="text"] text {
+        paint-order: stroke;
+        stroke: var(--paper);
+        stroke-width: 4px;
+        stroke-linejoin: round;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 0.92rem;
+        font-variant-numeric: tabular-nums;
+      }
+      th {
+        font-family: var(--display);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 0.78rem;
+        border-bottom: 3px solid var(--ink);
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 5px 8px;
+      }
+      td {
+        border-bottom: 1px solid var(--line);
+      }
+      figure {
+        margin: 0;
+      }
+      /* At a glance: a bar per meal on a 0-100% track; tinted table cells. */
+      .scores {
+        display: grid;
+        gap: 14px;
+      }
+      .score p {
+        margin: 0 0 4px;
+        font-weight: 600;
+      }
+      .bar {
+        display: grid;
+        grid-template-columns: 5.5rem 1fr 3rem;
+        align-items: center;
+        gap: 8px;
+        font-size: 0.9rem;
+        font-variant-numeric: tabular-nums;
+      }
+      .bar b {
+        text-align: right;
+      }
+      .key .ends {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0 12px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--muted);
+      }
+      .key .ends :last-child {
+        margin-left: auto;
+        color: var(--accent);
+      }
+      .track {
+        height: 12px;
+        background: var(--line);
+        border-radius: 2px;
+        overflow: hidden;
+      }
+      .fill {
+        display: block;
+        height: 100%;
+        background: var(--accent);
+      }
+      .scorecard {
+        display: grid;
+        /* A wide district table scrolls alone instead of stretching the bars. */
+        grid-template-columns: minmax(0, 1fr);
+        gap: 10px;
+      }
+      .scorecard h3 {
+        margin-top: 8px;
+      }
+      .scoretable td small {
+        display: block;
+        color: var(--muted);
+      }
+      footer {
+        font-size: 0.85rem;
+        overflow-wrap: anywhere; /* long source URLs */
+        border-top: 1px solid var(--line);
+        padding-top: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>School meal tracker</h1>
+        <p class="muted" id="generated">Loading…</p>
+        <p class="muted">
+          <a href="https://github.com/brooksomics/tray-tally"
+            >Code, and how to add your district</a
+          >
+        </p>
+      </header>
+      <details class="filters">
+        <summary>
+          <b>Filters</b><span class="muted" id="filter-summary"></span>
+        </summary>
+        <form id="filters"></form>
+      </details>
+
+      <section>
+        <h2>Breakfast and lunch against a day's need</h2>
+        <p class="note">
+          How much of a day's fiber, protein, calcium and iron one K-5 breakfast
+          and one lunch give, averaged over the selected districts (each counted
+          once). A tray here is one carton of milk (every school breakfast and
+          lunch must offer milk; the mean of the milks on the menu) plus the
+          menu's other items, pooled, over the rest of the fewest calories a K-5
+          meal may average: 350 at breakfast, 550 at lunch. At more calories, a
+          tray holds more of everything. The dashed line is a whole day's need,
+          from the National Academies: the RDA (for fiber, the Adequate Intake).
+          Ages 4–8: fiber 25 g, protein 19 g, calcium 1,000 mg, iron 10 mg. Ages
+          9–13: fiber 31 g (boys; girls 26 g), protein 34 g, calcium 1,300 mg,
+          iron 8 mg. Breakfast and lunch are two of a day's meals, so a bar
+          short of the line isn't a shortfall by itself; one past it is more
+          than a whole day needs. A district with under half its items known for
+          a nutrient is left out of that bar (n). Calcium and iron were first
+          kept on 2026-10-23 and fill in as each menu's items are re-checked.
+          These are menus offered, not what any child took or ate.
+        </p>
+        <div class="chart" id="needs"></div>
+      </section>
+
+      <section>
+        <h2>At a glance</h2>
+        <p class="note">
+          How often menus met each line, as a share of the weeks with enough
+          data to judge. "All selected districts" averages the districts, each
+          counted once, so a district with more weeks of data doesn't count
+          more. Further down: the same lines week by week, then day by day, and
+          at the bottom, every item. Sugar: the weekly verdict from "Distance to
+          the 2027 rule". Fiber: entrées, per 1,000 calories. Protein: share of
+          calories, within the 10–30% range for ages 4–18. Sodium: today's K-5
+          limit, and the stricter one from July 2027. Estimates from published
+          menus, not compliance findings.
+        </p>
+        <div class="chart" id="scorecard"></div>
+      </section>
+
+      <section>
+        <h2>Distance to the 2027 rule</h2>
+        <p class="note">
+          Weekly mean share of calories from added sugar, across items offered.
+          Dashed line: 10%. From 2027-07-01 US school meals must average under
+          it, and it's also WHO's main limit for free sugars. Dotted line: 5%,
+          WHO's further (conditional) limit and the UK's for ages 2 and up. Free
+          sugars also count sugars in juice; we only see added sugar, so these
+          comparisons are, if anything, lenient. Hollow points: under half the
+          week's items had data, so no verdict.
+        </p>
+        <p class="caveat" id="caveat-2027"></p>
+        <div class="chart" id="weeks"></div>
+      </section>
+
+      <section>
+        <h2>Ultra-processed: AB 1264 "high amounts" share</h2>
+        <p class="note">
+          Weekly share of items (milk left out) that are high in saturated fat,
+          sodium or added sugar as California's AB 1264 defines it. Districts in
+          other states are held to the same yardstick for comparison; the law
+          doesn't apply to them.
+        </p>
+        <p class="caveat" id="caveat-ca"></p>
+        <div class="chart" id="upf"></div>
+        <p class="note">
+          Path to zero: the thick segment is the median weekly share over the
+          last 8 weeks shown. The dashed line runs straight from there to 0% on
+          2032-07-01, when vendors may no longer offer "ultraprocessed foods of
+          concern" to California schools, and stays at 0% through 2035-07-01,
+          when school meals must exclude them. It assumes every item meeting
+          this test will count; the state defines "of concern" by 2028-06-01.
+        </p>
+        <div class="chart" id="upf-path"></div>
+      </section>
+
+      <section>
+        <h2>Fiber per entrée, per 1,000 calories</h2>
+        <p class="note">
+          Weekly mean of each entrée's fiber per 1,000 calories, so small and
+          large entrées compare fairly. Dashed line: 14 g per 1,000 kcal, the
+          density behind FDA's fiber Daily Value for everyone 4 and up (28 g on
+          a 2,000-calorie day). Food at or above it carries its share: if every
+          meal, dinner included, reached it, so would the day. Dotted line:
+          12.5, WHO's density (2023 guideline), which it scales to children's
+          targets. Entrées without calories are left out.
+        </p>
+        <div class="chart" id="fiber"></div>
+      </section>
+
+      <section>
+        <h2>Protein, % of calories</h2>
+        <p class="note">
+          Weekly share of calories from protein for the menu as a whole: all the
+          protein in the items offered, at 4 calories per gram, over all their
+          calories, as if one tray held one of everything. Dashed lines: 10% and
+          30%, the National Academies' acceptable range for ages 4–18. It
+          describes a whole day's eating, not one meal. Dotted lines: 13% and
+          20%, the range Japan sets for its school lunches. For scale: at 550
+          calories, the fewest a K-5 lunch may average, a lunch at 14% protein
+          holds 19 g, the RDA for a whole day at ages 4–8 (34 g at 9–13). Items
+          without protein or calories are left out.
+        </p>
+        <div class="chart" id="protein"></div>
+      </section>
+
+      <section>
+        <h2>Sodium per 1,000 calories</h2>
+        <p class="note">
+          Weekly sodium per 1,000 calories of the menu as a whole: all the
+          sodium in the items offered over all their calories, as if one tray
+          held one of everything. A meal's own sodium per calorie is that same
+          ratio over its items, so a per-meal limit compares once divided by the
+          meal's calories. Dashed lines: the US weekly limit for a K-5 meal, now
+          and from 2027-07-01, over the fewest calories a K-5 meal may average
+          (550 at lunch, 350 at breakfast). A menu above a dashed line would put
+          a meal over that limit at any calorie level the rule allows; a menu
+          below it could still be over in a bigger meal. Dotted lines (lunch):
+          Japan's per-lunch salt limits for ages 6–7, 8–9 and 10–11, as sodium
+          (salt ÷ 2.54), over the calories its standard sets for each age (530,
+          650, 780). A side with more sodium than its whole meal may average
+          (1,110 mg at lunch, 540 at breakfast) is a likely data-entry error and
+          is left out. These are menus offered, not what any child took.
+        </p>
+        <h3>Lunch</h3>
+        <div class="chart" id="sodium-lunch"></div>
+        <h3>Breakfast</h3>
+        <div class="chart" id="sodium-breakfast"></div>
+      </section>
+
+      <section>
+        <h2>Worst offenders</h2>
+        <p class="note">
+          Items with the most added sugar in the filtered range. "Suspect" marks
+          likely data-entry errors (over the meal's calorie maximum, or more
+          sugar calories than calories); they're shown as published. "Estimated"
+          marks a value the district didn't publish, or published wrong,
+          replaced with a sourced one; the footer says which.
+        </p>
+        <div class="chart" id="offenders"></div>
+        <h3>Likely unrecorded added sugar</h3>
+        <div class="chart" id="unrecorded"></div>
+      </section>
+
+      <section>
+        <h2>Meets every line</h2>
+        <p class="note">
+          Items in the filtered range that pass every line on this page, as
+          published: under 5% of calories from added sugar and no more than 10
+          g; under 10% of calories from saturated fat; under 1 mg of sodium per
+          calorie; and at least 14 g of fiber per 1,000 calories. Items missing
+          any of these values, or marked suspect, are left out. These numbers
+          can't tell a whole food from a processed one with the same nutrients,
+          so meeting every line is a floor, not a definition of healthy. Protein
+          isn't part of this test: its range is for a whole day's eating, not
+          one food.
+        </p>
+        <div class="chart" id="best"></div>
+        <h3>What the lines mean</h3>
+        <ul class="note">
+          <li>
+            <strong>Added sugar</strong> is sugar added while a food is made, or
+            sold as sugar, including honey and syrups (FDA, 21 CFR 101.9). The
+            sugar already in whole fruit or plain milk isn't counted. From July
+            1, 2027, US school meals must average under 10% of calories from
+            added sugar over the week. WHO's main limit for free sugars is also
+            10%, with 5% as a further, conditional goal; the UK uses 5% for
+            everyone 2 and up. The 2025–2030 Dietary Guidelines say one meal
+            should have no more than 10 g.
+          </li>
+          <li>
+            <strong>Sodium:</strong> a K-5 school lunch may average at most
+            1,110 mg over the week (935 mg from July 2027), and a breakfast 540
+            mg (485 mg). Japan's school lunches for ages 6–11 stay under 1.5–2 g
+            of salt, about 590–790 mg of sodium.
+          </li>
+          <li>
+            <strong>Fiber:</strong> 14 g per 1,000 calories is the amount behind
+            the fiber Daily Value on US food labels (28 g on a 2,000-calorie
+            day); WHO's equivalent is 12.5 g. Counting per 1,000 calories lets a
+            small breakfast and a big lunch compare fairly.
+          </li>
+          <li>
+            <strong>Protein:</strong> the National Academies' acceptable range
+            for children 4–18 is 10–30% of calories over a whole day. Its RDA,
+            the daily amount it recommends, is 19 g at ages 4–8 and 34 g at
+            9–13. Japan plans its school lunches at 13–20% of calories from
+            protein. The 2025–2030 Dietary Guidelines set a goal of 1.2–1.6 g
+            per kilogram of body weight a day, with no separate figure for
+            children.
+          </li>
+          <li>
+            <strong>High in saturated fat, sodium or added sugar:</strong>
+            California's test (AB 1264) is 10% or more of calories from
+            saturated fat or from added sugar, or 1 mg or more of sodium per
+            calorie. A food that meets it and has a listed additive is
+            ultra-processed under the law, with exceptions such as drinking milk
+            and USDA commodity foods. Schools begin phasing out the ones the
+            state names "of concern" by July 1, 2029.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>The high bar: what good school food can look like</h2>
+        <p class="note">
+          The
+          <a href="https://cdn.realfood.gov/DGA.pdf"
+            >2025–2030 US Dietary Guidelines</a
+          >
+          put it simply: "eat real food." For children 5 to 10 they say to focus
+          on whole, nutrient-dense foods (protein foods, dairy, vegetables,
+          fruits, healthy fats and whole grains) and that "no amount of added
+          sugars is recommended." They tell teenagers to avoid highly processed
+          foods. The
+          <a
+            href="https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+            >World Health Organization</a
+          >
+          calls minimally processed and unprocessed foods, low in unhealthy
+          fats, free sugars and sodium, "the foundation of any healthy diet,"
+          and suggests at least 350 g of fruit and vegetables a day for ages
+          6–9.
+        </p>
+        <p class="note">
+          California has offered every student a free breakfast and lunch since
+          2022–23 (<a
+            href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EDC&amp;sectionNum=49501.5"
+            >Ed. Code §49501.5</a
+          >), and
+          <a href="https://frac.org/healthy-school-meals-for-all"
+            >eight other states</a
+          >
+          now fund free meals for all students too; in Colorado, districts opt
+          in. From December 31, 2027, California school meals may not contain
+          six food dyes, such as Red 40. Foods from the USDA's commodity program
+          are exempt.
+        </p>
+        <ul class="note">
+          <li>
+            <strong>Brazil:</strong> at least 85% of federal school-food money
+            must buy fresh or minimally processed food, and none of it may buy
+            soda, candy or filled cookies (<a
+              href="https://www.gov.br/fnde/pt-br/acesso-a-informacao/legislacao/resolucoes/2026/resolucao-cd_fnde-no-4-de-26-de-fevereiro-de-2026.pdf"
+              >Resolução CD/FNDE nº 4/2026</a
+            >). At least 45% must buy straight from family farms (<a
+              href="https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l11947.htm"
+              >Lei 11.947/2009, art. 14</a
+            >).
+          </li>
+          <li>
+            <strong>England:</strong> no sweets or chocolate; fried or breaded
+            food at most twice a week; 3 different fruits and 3 different
+            vegetables every week (<a
+              href="https://www.gov.uk/government/publications/school-food-standards-practical-guide-and-resources-for-schools/school-food-standards-practical-guide"
+              >school food standards</a
+            >).
+          </li>
+          <li>
+            <strong>Finland:</strong> a free, balanced meal every school day for
+            every pupil (<a
+              href="https://www.finlex.fi/fi/lainsaadanto/1998/628"
+              >Basic Education Act §31</a
+            >), since 1948 (<a
+              href="https://www.oph.fi/fi/koulutus-ja-tutkinnot/kouluruokailu-kuuluu-kaikille"
+              >Finnish National Agency for Education</a
+            >).
+          </li>
+          <li>
+            <strong>Japan:</strong> by law, school lunch is part of food
+            education (<a href="https://laws.e-gov.go.jp/law/329AC0000000160"
+              >School Lunch Act</a
+            >), and national guidance asks schools to use local produce and
+            traditional dishes (<a
+              href="https://www.mext.go.jp/a_menu/sports/syokuiku/1407704.htm"
+              >MEXT, 2021</a
+            >).
+          </li>
+          <li>
+            <strong>New Mexico:</strong> the state tops meals up to the federal
+            free-meal rate only for districts that meet its meal-quality rules,
+            which can include cooking from scratch with New Mexico food (<a
+              href="https://www.nmlegis.gov/Sessions/23%20Regular/final/SB0004.pdf"
+              >SB 4, 2023</a
+            >).
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>By day</h2>
+        <p class="note">
+          The weekly charts above, one dot per school day's menu, for the same
+          filters. Lines join the days of one week. The US sugar and sodium
+          limits are weekly averages: one day above a line doesn't break the
+          rule, but it pulls the week toward it. Japan's sodium limits are per
+          lunch, so a day compares directly. Hollow dots: added sugar is known
+          for under half of that day's items.
+        </p>
+        <h3>Added sugar, % of calories</h3>
+        <div class="chart" id="day-sugar"></div>
+        <h3>AB 1264 "high amounts" share</h3>
+        <div class="chart" id="day-upf"></div>
+        <h3>Fiber per entrée, per 1,000 calories</h3>
+        <div class="chart" id="day-fiber"></div>
+        <h3>Protein, % of calories</h3>
+        <div class="chart" id="day-protein"></div>
+        <h3>Sodium per 1,000 calories: lunch</h3>
+        <div class="chart" id="day-sodium-lunch"></div>
+        <h3>Sodium per 1,000 calories: breakfast</h3>
+        <div class="chart" id="day-sodium-breakfast"></div>
+      </section>
+
+      <section>
+        <h2>Added sugar per item</h2>
+        <p class="note">
+          Each dot is one item offered on one day. Dashed line: 10 g, the most
+          added sugar the Dietary Guidelines 2025–2030 suggest for a whole meal
+          (guidance, not a school-meal rule). For scale, the AHA suggests 25 g
+          or less per day for children 2–18.
+        </p>
+        <div class="chart" id="sugar"></div>
+      </section>
+
+      <footer id="footer"></footer>
+    </main>
+    <!-- Plot 0.6.17 + d3 7.9.0 from npm, served from here: the blog's CSP allows only 'self' -->
+    <script src="vendor/d3.min.js"></script>
+    <script src="vendor/plot.umd.min.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
