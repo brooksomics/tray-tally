@@ -3,6 +3,7 @@
 import { bestItems, bestNote, bestTable } from "./best.js";
 import { sodiumChart, sugarChart, trendChart, WIDTH } from "./charts.js";
 import * as data from "./data.js";
+import { names, pick } from "./highlight.js";
 import {
   UPF,
   daySugarOpts,
@@ -103,28 +104,48 @@ function charts(summary, f, rs) {
     ["offenders", offendersTable(data.offenders(rs))],
     ["unrecorded", noted(unrecordedNote(zeros), unrecordedTable(zeros))],
     ["best", noted(bestNote(rs, refs, 15), bestTable(bestItems(rs, refs), 15))],
-    ...dailyCharts(rs, refs),
+    ...dailyCharts(rs, refs, dayHighlight(rs)),
   ];
 }
 
-// The weekly charts per school day.
-function dailyCharts(rs, refs) {
+// The weekly charts per school day; `highlight` districts in color.
+function dailyCharts(rs, refs, highlight) {
   const per = "day";
-  const sugar = { ...daySugarOpts(refs), per };
-  return [
-    ["day-sugar", trendChart(addedSugarShare(rs, per), sugar)],
-    ["day-upf", trendChart(upfShare(rs, per), { ...UPF, per })],
-    [
-      "day-fiber",
-      trendChart(entreeFiberDensity(rs, per), { ...fiberOpts(refs), per }),
-    ],
-    [
-      "day-protein",
-      trendChart(menuProteinShare(rs, per), { ...proteinOpts(refs), per }),
-    ],
-    ["day-sodium-lunch", sodiumChart(rs, refs, { meal: "lunch", per })],
-    ["day-sodium-breakfast", sodiumChart(rs, refs, { meal: "breakfast", per })],
+  const daily = (opts) => ({ ...opts, per, highlight });
+  const trend = (id, series, opts) => [
+    id,
+    trendChart(series(rs, per), daily(opts)),
   ];
+  return [
+    trend("day-sugar", addedSugarShare, daySugarOpts(refs)),
+    trend("day-upf", upfShare, UPF),
+    trend("day-fiber", entreeFiberDensity, fiberOpts(refs)),
+    trend("day-protein", menuProteinShare, proteinOpts(refs)),
+    ["day-sodium-lunch", sodiumChart(rs, refs, daily({ meal: "lunch" }))],
+    [
+      "day-sodium-breakfast",
+      sodiumChart(rs, refs, daily({ meal: "breakfast" })),
+    ],
+  ];
+}
+
+// The By-day picks, rebuilt each render because the filters decide which
+// districts there are. A pick the filters drop falls back (highlight.js).
+function dayHighlight(rs) {
+  const { a, b } = $("day-highlight").elements;
+  const avail = names(rs);
+  const hl = pick(avail, [a.value, b.value]);
+  const opts = avail.map((n) => [n, n]);
+  fillSelect(a, [...opts, ["*", "All districts"]], hl?.[0] ?? "*");
+  fillSelect(b, [["", "no second district"], ...opts], hl?.[1] ?? "");
+  b.disabled = !hl;
+  return hl;
+}
+
+function fillSelect(select, options, value) {
+  const option = ([v, t]) => el("option", { value: v, textContent: t });
+  select.replaceChildren(...options.map(option));
+  select.value = value;
 }
 
 function render(summary, all, form) {
@@ -157,6 +178,11 @@ async function main() {
   buildForm(form, districts, dates);
   fillText(summary, dates.at(-1));
   form.addEventListener("change", () => render(summary, all, form));
+  $("day-highlight").addEventListener("change", () =>
+    render(summary, all, form),
+  );
+  // The daily charts are too dense for a phone: folded there, open elsewhere.
+  if (matchMedia("(max-width: 640px)").matches) $("by-day").open = false;
   render(summary, all, form);
 }
 

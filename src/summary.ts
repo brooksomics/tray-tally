@@ -109,7 +109,7 @@ function withEstimates(d: District, days: DayFile[]): DayFile[] {
 }
 
 /**
- * Calcium and iron were kept from 2026-10-23 (food-ebu). An item stored
+ * Calcium and iron were kept from 2026-10-23. An item stored
  * before then takes its recipe's cached values, the record its other
  * nutrients came from. A recipe with several cached servings is ambiguous: null.
  */

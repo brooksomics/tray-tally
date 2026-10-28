@@ -3,7 +3,7 @@ import { test } from "node:test";
 import { needShares, tray } from "../dashboard/needs.js";
 import { summarize } from "../src/summary.ts";
 
-// food-ebu: the top chart. What a K-5 breakfast and lunch tray gives of
+// The top chart. What a K-5 breakfast and lunch tray gives of
 // fiber, protein, calcium and iron, as a share of a day's need.
 test("a day's need: fiber AI, protein, calcium and iron RDAs, ages 4-8 and 9-13", () => {
   const refs = summarize([], "x").references;

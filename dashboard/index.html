@@ -184,6 +184,30 @@
         outline: 2px solid var(--accent);
         outline-offset: 2px;
       }
+      /* By day folds like the filters; its phone warning shows only there. */
+      #by-day {
+        background: none;
+        border: 0;
+      }
+      .by-day {
+        display: grid;
+        gap: 8px;
+        padding-top: 8px;
+        min-width: 0;
+      }
+      .pick {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 16px;
+      }
+      .phone-only {
+        display: none;
+      }
+      @media (max-width: 640px) {
+        .phone-only {
+          display: inline;
+        }
+      }
       .chart {
         overflow-x: auto;
         min-width: 0;
@@ -592,26 +616,48 @@
 
       <section>
         <h2>By day</h2>
-        <p class="note">
-          The weekly charts above, one dot per school day's menu, for the same
-          filters. Lines join the days of one week. The US sugar and sodium
-          limits are weekly averages: one day above a line doesn't break the
-          rule, but it pulls the week toward it. Japan's sodium limits are per
-          lunch, so a day compares directly. Hollow dots: added sugar is known
-          for under half of that day's items.
-        </p>
-        <h3>Added sugar, % of calories</h3>
-        <div class="chart" id="day-sugar"></div>
-        <h3>AB 1264 "high amounts" share</h3>
-        <div class="chart" id="day-upf"></div>
-        <h3>Fiber per entrée, per 1,000 calories</h3>
-        <div class="chart" id="day-fiber"></div>
-        <h3>Protein, % of calories</h3>
-        <div class="chart" id="day-protein"></div>
-        <h3>Sodium per 1,000 calories: lunch</h3>
-        <div class="chart" id="day-sodium-lunch"></div>
-        <h3>Sodium per 1,000 calories: breakfast</h3>
-        <div class="chart" id="day-sodium-breakfast"></div>
+        <details class="filters" id="by-day" open>
+          <summary>
+            <b>Daily charts</b
+            ><span class="muted phone-only"
+              >Dense: best on a bigger screen, or with your phone
+              sideways.</span
+            >
+          </summary>
+          <div class="by-day">
+            <p class="note">
+              The weekly charts above, one dot per school day's menu, for the
+              same filters. Lines join the days of one week. The US sugar and
+              sodium limits are weekly averages: one day above a line doesn't
+              break the rule, but it pulls the week toward it. Japan's sodium
+              limits are per lunch, so a day compares directly. Hollow dots:
+              added sugar is known for under half of that day's items. Faint
+              lines: the districts you haven't picked below.
+            </p>
+            <form id="day-highlight" class="pick">
+              <label
+                >Highlight
+                <select name="a"></select
+              ></label>
+              <label
+                >and
+                <select name="b"></select
+              ></label>
+            </form>
+            <h3>Added sugar, % of calories</h3>
+            <div class="chart" id="day-sugar"></div>
+            <h3>AB 1264 "high amounts" share</h3>
+            <div class="chart" id="day-upf"></div>
+            <h3>Fiber per entrée, per 1,000 calories</h3>
+            <div class="chart" id="day-fiber"></div>
+            <h3>Protein, % of calories</h3>
+            <div class="chart" id="day-protein"></div>
+            <h3>Sodium per 1,000 calories: lunch</h3>
+            <div class="chart" id="day-sodium-lunch"></div>
+            <h3>Sodium per 1,000 calories: breakfast</h3>
+            <div class="chart" id="day-sodium-breakfast"></div>
+          </div>
+        </details>
       </section>
 
       <section>

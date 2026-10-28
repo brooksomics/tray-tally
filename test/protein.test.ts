@@ -4,7 +4,7 @@ import { proteinOpts } from "../dashboard/lines.js";
 import { menuProteinShare } from "../dashboard/series.js";
 import { summarize } from "../src/summary.ts";
 
-// food-84z: protein lines, as a share of calories: the National Academies' range for
+// Protein lines, as a share of calories: the National Academies' range for
 // ages 4-18 (a whole day's eating) and the range Japan sets for its lunches.
 test("protein lines: 10-30% for ages 4-18 (AMDR), 13-20% for a Japanese school lunch", () => {
   const refs = summarize([], "x").references;

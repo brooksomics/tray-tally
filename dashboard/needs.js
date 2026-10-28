@@ -1,4 +1,4 @@
-// The top chart (food-ebu): what a K-5 breakfast and lunch tray gives of
+// The top chart: what a K-5 breakfast and lunch tray gives of
 // fiber, protein, calcium and iron, as a share of a day's need. Pure, so
 // tests import it too.
 /** @typedef {import("./data.js").Row} Row */

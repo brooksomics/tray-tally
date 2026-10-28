@@ -25,7 +25,7 @@ function oldCache(dataDir: string): void {
   const bare = (r: (typeof fixture.recipes)[number]) => {
     const { recipeID, recipeServingID, calories, caloriesUOM } = r;
     const record = { recipeID, recipeServingID, calories, caloriesUOM };
-    // After calcium's one-time catch-up (food-ebu), so nothing is re-asked.
+    // After calcium's one-time catch-up, so nothing is re-asked.
     return { fetchedAt: "2026-10-23", record };
   };
   const recipes = Object.fromEntries(

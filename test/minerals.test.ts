@@ -9,7 +9,7 @@ import { summarize } from "../src/summary.ts";
 import { district, fixture } from "./fake-etrition.ts";
 import { cerealBar } from "./fake-schoolcafe.ts";
 
-// food-ebu: calcium and iron, which both platforms publish, kept like the
+// Calcium and iron, which both platforms publish, kept like the
 // other nutrients; days stored before then take them from the recipe cache.
 const recipes = fixture.recipes as RecipeRecord[];
 const cheerios = recipes.find((r) => r.recipeID === 4700) as RecipeRecord;

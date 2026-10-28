@@ -11,7 +11,7 @@ export type RecipeCache = Record<
 export const MAX_IDS = 150; // 3 GetRecipes batches: token + calendar + 3 = 5 requests
 const STALE_DAYS = 30; // "monthly" re-fetch, spread over daily runs
 // ponytail: one-time catch-up. Entries cached before calcium and iron were
-// kept (food-ebu) are stale now, once: asking sets fetchedAt, so a recipe the
+// kept are stale now, once: asking sets fetchedAt, so a recipe the
 // API never returns isn't asked every run. Drop when no cache predates it.
 const MINERALS_SINCE = "2026-10-23";
 const premineral = (c: RecipeCache[string]) =>

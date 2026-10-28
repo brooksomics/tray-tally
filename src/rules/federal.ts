@@ -27,7 +27,7 @@ const BREAKFAST_SODIUM = `7 CFR 220.8(f)(4) Table 3, Grades K-5: '≤540' mg 'in
 const fewest = (meal: Meal) =>
   `over the fewest calories a K-5 ${meal} may average (${CALORIES["K-5"][meal]![0]}), per 1,000 kcal. A menu denser than this puts a ${meal} over the limit at any calorie level the rule allows`;
 
-// A day's need for the top chart (food-ebu): `value` for ages 4-8, ages9to13.
+// A day's need for the top chart: `value` for ages 4-8, ages9to13.
 const DRI =
   "National Academies Food and Nutrition Board, DRI summary tables in Dietary Reference Intakes for Sodium and Potassium (2019), read in a course copy (eclass.hmu.gr, 'DRIs_2019') 2026-10-23";
 const MACROS = `${DRI}: 'Recommended Dietary Allowances and Adequate Intakes, Total Water and Macronutrients'`;

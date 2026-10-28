@@ -63,7 +63,7 @@ export const fiberOpts = (refs) => ({
   ],
 });
 
-// Protein (food-84z): a range's two ends, dashed for the US (ages 4–18, a whole day's
+// Protein: a range's two ends, dashed for the US (ages 4–18, a whole day's
 // eating), dotted for Japan (per lunch).
 const range = (ref, name, dash) =>
   [ref?.value, ref?.max].map((value) => ({
