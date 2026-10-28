@@ -41,7 +41,7 @@ function pathMarks(path, dates) {
   return [
     Plot.line(now, { ...xy, strokeWidth: 3 }),
     Plot.line(ahead, { ...xy, strokeDasharray: "4,4" }),
-    Plot.dot(goal, { ...xy, fill: "currentColor" }),
+    Plot.dot(goal, { ...xy, r: 2, fill: "currentColor" }),
     Plot.text(goal, { ...xy, text: pct, dx: 6, textAnchor: "start" }),
   ];
 }

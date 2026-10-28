@@ -17,6 +17,8 @@ const series = (d) => `${d.districtName} · ${d.menu}`;
 const DISTRICT = "districtName";
 // Districts not highlighted: faint, in the text color (either theme), no tip.
 const FAINT = { stroke: "currentColor", strokeOpacity: 0.15 };
+// Dot radius, one step under Plot's 4.5 default for symbol dots: less overlap.
+const R = 3.5;
 // Ticks on Mondays ("Oct 12"), where a week's dot sits.
 const xAxis = (/** @type {string[]} */ weeks, /** @type {string} */ label) => ({
   label,
@@ -27,7 +29,7 @@ const xAxis = (/** @type {string[]} */ weeks, /** @type {string} */ label) => ({
 
 export function sugarChart(rs) {
   const title = (d) => `${d.item}\n${d.addedSugarG} g · ${d.menu}`;
-  const who = { stroke: "districtName", symbol: "meal" };
+  const who = { stroke: "districtName", symbol: "meal", r: R };
   const dots = { ...who, x: day, y: "addedSugarG", tip: true, title };
   return Plot.plot({
     width: WIDTH,
@@ -74,7 +76,7 @@ const trendLine = (rows, { y, per }, look = { stroke: DISTRICT }) =>
 // Hollow points where `hollow(d)` (too little data for a verdict).
 function trendMarks(rows, { y, rules = [], hollow = () => false, per }) {
   const who = { stroke: DISTRICT, symbol: "meal", channels: { menu: "menu" } };
-  const dot = (fill) => ({ ...who, x: day, y, fill, tip: true });
+  const dot = (fill) => ({ ...who, x: day, y, r: R, fill, tip: true });
   const [lines, labels] = ruleMarks(rules);
   return [
     ...lines,
@@ -116,7 +118,7 @@ export function trendChart(rows, opts) {
     symbol: mealSymbols(rows),
     marks: [
       trendLine(context, opts, FAINT),
-      Plot.dot(context, { x: day, y, r: 1.5, ...FAINT }),
+      Plot.dot(context, { x: day, y, r: 1, ...FAINT }),
       trendMarks(focus, opts),
     ],
   });
