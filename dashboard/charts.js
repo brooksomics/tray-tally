@@ -23,20 +23,24 @@ const xAxis = (/** @type {string[]} */ weeks, /** @type {string} */ label) => ({
     d.toLocaleDateString("en-US", { month: "short", day: "numeric" }),
 });
 
-export function sugarChart(rs) {
+/** Each item on each day; `highlight` as in trendChart. */
+export function sugarChart(rs, highlight) {
   const title = (d) => `${d.item}\n${d.addedSugarG} g · ${d.menu}`;
-  const who = { stroke: "districtName", symbol: "meal", r: R };
-  const dots = { ...who, x: day, y: "addedSugarG", tip: true, title };
+  const xy = { x: day, y: "addedSugarG" };
+  const who = { stroke: DISTRICT, symbol: "meal", r: R, tip: true, title };
+  const { focus, context } = split(rs, highlight ?? names(rs));
+  const weeks = rs.map((r) => mondayOf(r.date));
   return Plot.plot({
     width: width(),
-    x: xAxis(
-      rs.map((r) => mondayOf(r.date)),
-      "day",
-    ),
+    x: xAxis(weeks, "day"),
     y: { grid: true, zero: true, label: Y.itemSugar },
-    color: { legend: true },
+    color: colorFor(rs, highlight),
     symbol: mealSymbols(rs),
-    marks: [Plot.ruleY([10], { strokeDasharray: "4,4" }), Plot.dot(rs, dots)],
+    marks: [
+      Plot.ruleY([10], { strokeDasharray: "4,4" }),
+      Plot.dot(context, { ...xy, r: 1, ...FAINT }),
+      Plot.dot(focus, { ...xy, ...who }),
+    ],
   });
 }
 
