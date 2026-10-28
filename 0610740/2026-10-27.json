@@ -3,7 +3,7 @@
   "district": "0610740",
   "date": "2026-10-27",
   "firstSeen": "2026-10-27",
-  "lastSeen": "2026-10-27",
+  "lastSeen": "2026-10-28",
   "items": [
     {
       "district": "0610740",
@@ -213,7 +213,7 @@
       "calciumMg": 209.28,
       "ironMg": 2.65,
       "flags": [],
-      "ingredients": null
+      "ingredients": "Pizza Sauce (Tomato, Sauce, Canned, Low Sodium; Sugar, Granulated; Italian Seasoning; Salt, table; Spices, Oregano, ground; Spice, Garlic Powder; Spices, Black Pepper, ground); WG Cheese Lasagna Roll Up"
     },
     {
       "district": "0610740",
@@ -255,7 +255,7 @@
       "calciumMg": 56.2,
       "ironMg": 0.23,
       "flags": [],
-      "ingredients": null
+      "ingredients": "Tangerine, raw, small"
     },
     {
       "district": "0610740",
@@ -276,7 +276,7 @@
       "calciumMg": 4.88,
       "ironMg": 0,
       "flags": [],
-      "ingredients": null
+      "ingredients": "Pears, Asian, Rall, 2-1/4\" high, 2-1/2\" diameter"
     },
     {
       "district": "0610740",
@@ -381,7 +381,7 @@
       "calciumMg": 240,
       "ironMg": 2.7,
       "flags": [],
-      "ingredients": null
+      "ingredients": "Turkey & Beef Pepperoni Stuffed Sandwich"
     },
     {
       "district": "0610740",

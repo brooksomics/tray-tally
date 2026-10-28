@@ -3,7 +3,7 @@
   "district": "4823640",
   "date": "2026-10-28",
   "firstSeen": "2026-10-27",
-  "lastSeen": "2026-10-27",
+  "lastSeen": "2026-10-28",
   "items": [
     {
       "district": "4823640",
@@ -45,7 +45,7 @@
       "calciumMg": 5.9,
       "ironMg": 0.31,
       "flags": [],
-      "ingredients": null
+      "ingredients": "Banana 26-27"
     },
     {
       "district": "4823640",
@@ -87,7 +87,7 @@
       "calciumMg": 98.8,
       "ironMg": 0.75,
       "flags": [],
-      "ingredients": null
+      "ingredients": "Maple Pancake, Chicken Sausage & Cheese Sandwich 26-27"
     },
     {
       "district": "4823640",

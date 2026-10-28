@@ -3,7 +3,7 @@
   "district": "0803360",
   "date": "2026-10-28",
   "firstSeen": "2026-10-27",
-  "lastSeen": "2026-10-27",
+  "lastSeen": "2026-10-28",
   "items": [
     {
       "district": "0803360",
@@ -66,7 +66,7 @@
       "calciumMg": 100,
       "ironMg": 14.4,
       "flags": [],
-      "ingredients": null
+      "ingredients": "Chex Cereal"
     },
     {
       "district": "0803360",
@@ -150,7 +150,7 @@
       "calciumMg": 114,
       "ironMg": 1,
       "flags": [],
-      "ingredients": null
+      "ingredients": "IW Zucchini  Bread"
     },
     {
       "district": "0803360",

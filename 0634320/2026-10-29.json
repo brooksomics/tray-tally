@@ -3,7 +3,7 @@
   "district": "0634320",
   "date": "2026-10-29",
   "firstSeen": "2026-10-27",
-  "lastSeen": "2026-10-27",
+  "lastSeen": "2026-10-28",
   "items": [
     {
       "district": "0634320",
@@ -144,6 +144,28 @@
       "calciumMg": null,
       "ironMg": null,
       "flags": []
+    },
+    {
+      "district": "0634320",
+      "date": "2026-10-29",
+      "menu": "Elementary Lunch",
+      "meal": "lunch",
+      "item": "Black Beans",
+      "category": "Vegetables",
+      "sourceId": "474",
+      "servingSize": "Scoop #8 ",
+      "kcal": 120,
+      "sugarG": 1,
+      "addedSugarG": null,
+      "saturatedFatG": 0,
+      "fiberG": 6,
+      "proteinG": 7,
+      "sodiumMg": 140,
+      "calciumMg": null,
+      "ironMg": null,
+      "flags": [
+        "missing_added_sugar"
+      ]
     },
     {
       "district": "0634320",

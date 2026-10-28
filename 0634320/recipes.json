@@ -1539,6 +1539,33 @@
         "iron": null,
         "ironUOM": "mg"
       }
+    },
+    "476": {
+      "fetchedAt": "2026-10-28",
+      "record": {
+        "recipeID": 474,
+        "recipeServingID": 476,
+        "recipeCategoryDescription": "Vegetables",
+        "servingSize": "Scoop #8 ",
+        "calories": 120,
+        "caloriesUOM": "kcals",
+        "sugar": 1,
+        "sugarUOM": "g",
+        "addedSugar": null,
+        "addedSugarUOM": "g",
+        "saturatedFat": 0,
+        "saturatedFatUOM": "g",
+        "dietaryFiber": 6,
+        "dietaryFiberUOM": "g",
+        "protein": 7,
+        "proteinUOM": "g",
+        "sodium": 140,
+        "sodiumUOM": "mg",
+        "calcium": null,
+        "calciumUOM": "mg",
+        "iron": null,
+        "ironUOM": "mg"
+      }
     }
   }
 }

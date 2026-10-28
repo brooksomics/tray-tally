@@ -3246,7 +3246,7 @@
       "ingredients": "Tenders (Gold Creek: Chicken breast meat with rib meat, water, salt, sodium phosphate, onion, powder, garlic powder, modified corn starch BREADED WITH: Whole wheat flour, enriched, wheat flour (wheat flour, niacin, reduced iron, thiamine mononitrate, ribofloavin, folic acid), salt,, spices, sucrose, dried yeast, garlic powder, )"
     },
     "17079": {
-      "fetchedAt": "2026-10-27",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Whole Wheat Pullman O/T SL (Whole wheat flour, enriched wheat flour(wheat flour, calcium sulfate, ferrous sulfate, niacin, thiamine hydrochloride ,riboflavin, folic acid, and tricalcium phosphate), sugar, soybean oil, salt, wheat gluten, dry yeast (yeast, soritan monostearate, ascorbic acid), dough improver (wheat flour, diacetyl tartaric acid Esters of mono and diglycerides, absorbic acid, enzymes, soybean oil,  potassium  iodate) .                                                                                                              Allergens:                                                                                                             Contains wheat/gluten. Processed in a facility that also processes milk, egg, tree nuts. ); SunButter, Bulk (ROASTED SUNFLOWER SEEDS, SUGAR, MONO-DIGLYCERIDES, SALT); Concord Grape Jelly (Concord Grapes, Sugar, Fruit Pectin, Citric Acid, Sodium Citrate.)"
     },
     "17098": {
@@ -3269,6 +3269,10 @@
       "fetchedAt": "2026-10-23",
       "ingredients": "Tater Puffs (Potatoes, Vegetable Oil (Contains One Or More Of The Following Oils: Canola,, Soybean, Cottonseed, Sunflower, Corn). Contains 2% or less of Dextrose, Modified Cellulose, Natural Flavor, Salt, Sodium Acid Pyrophosphate Added To Maintain Natural Color, )"
     },
+    "17152": {
+      "fetchedAt": "2026-10-28",
+      "ingredients": "Corn WHL Kernel; Herb Compound Butter Blend (vegan) (Butter Spread, Vegan, Smart Balance (Vegetable Oil Blend (Canola, Palm, and Olive Oils), Water, contains less than 2% of Salt, Pea Protein, Natural and Artificial Flavors, Sunflower Lecithin, Vitamin A Palmitate, Beta-Carotene (Color), Vitamin D, Monoglycerides of Vegetable Fatty Acids (Emulsifier); and Potassium Sorbate, Lactic Acid, Calcium Disodium EDTA (To Preserve Freshness).); Garlic Powder; Spice, Italian Blend); Vegetable Seasoning (Garlic Powder; Ground Black Pepper; Spice, Italian Blend; Granulated Salt)"
+    },
     "17156": {
       "fetchedAt": "2026-10-20",
       "ingredients": "Sweet Potato Fries (Sweet Potatoes, Vegetable Oil (Contains One Or More Of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn), Corn Starch - Modified, Potato Starch - Modified. Contains 2% or less of Baking Soda, Dextrin, Extractives of Paprika and Turmeric (color), Fiber (Pea, Corn), Molasses Powder (Refiners Syrup, Molasses), Rice Flour, Salt, Sodium Acid Pyrophosphate (Maintains Natural Color & Leavening), Sugar, Xanthan Gum.)"
@@ -3286,7 +3290,7 @@
       "ingredients": "100% Juice Cups, frozen, Wild Cherry (Pineapple Juice from Concentrate (Micron Filtered Water and Concentrated, Pineapple Juice), Apple Juice from Concentrate (Micron Filtered Water and, Concentrated Apple Juice), Inulin (Vegetable Fiber), Beet Concentrate (for, Color), Natural Flavor, Guar and Xanthan Gums, Citric Acid, Calcium, Hydroxide, Ascorbic Acid (Vitamin C), and Beta Carotene.,)"
     },
     "17162": {
-      "fetchedAt": "2026-10-23",
+      "fetchedAt": "2026-10-28",
       "ingredients": "BANANAS,RAW"
     },
     "17164": {
@@ -3302,7 +3306,7 @@
       "ingredients": "Mustard (Distilled vinegar and water, mustard seed, salt, turmeric, paprika.)"
     },
     "17196": {
-      "fetchedAt": "2026-10-23",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Tomato, Fresh, Sliced; Sliced Jalapeno Peppers; Cilantro ; Onion, Yellow, Fresh; Lime Juice (Limes.); Oil, Canola; GARLIC,RAW; Cumin; Chipotle Powder"
     },
     "17203": {
@@ -3322,7 +3326,7 @@
       "ingredients": "Sweet Potato, Fresh; Herb Compound Butter Blend (vegan) (Butter Spread, Vegan, Smart Balance (Vegetable Oil Blend (Canola, Palm, and Olive Oils), Water, contains less than 2% of Salt, Pea Protein, Natural and Artificial Flavors, Sunflower Lecithin, Vitamin A Palmitate, Beta-Carotene (Color), Vitamin D, Monoglycerides of Vegetable Fatty Acids (Emulsifier); and Potassium Sorbate, Lactic Acid, Calcium Disodium EDTA (To Preserve Freshness).); Garlic Powder; Spice, Italian Blend)"
     },
     "20985": {
-      "fetchedAt": "2026-10-20",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Tomato, Fresh, Sliced; LETTUCE,COS OR ROMAINE,RAW"
     },
     "21006": {
@@ -3334,7 +3338,7 @@
       "ingredients": "Peaches, sliced; Crisp Crumble Top (Butter Spread, Vegan, Smart Balance (Vegetable Oil Blend (Canola, Palm, and Olive Oils), Water, contains less than 2% of Salt, Pea Protein, Natural and Artificial Flavors, Sunflower Lecithin, Vitamin A Palmitate, Beta-Carotene (Color), Vitamin D, Monoglycerides of Vegetable Fatty Acids (Emulsifier); and Potassium Sorbate, Lactic Acid, Calcium Disodium EDTA (To Preserve Freshness).); Oats; Sugar Light &amp; Dark Brown Sugar; AP Flour; CINNAMON,GROUND); Lemon Juice New; CORNSTARCH"
     },
     "22489": {
-      "fetchedAt": "2026-10-27",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Ranch (Soybean Oil, Cultured Buttermilk, Water, Egg Yolk, Distilled Vinegar, Contains Less Than 2% Of Sugar, Salt, Garlic*, Buttermilk Solids, Spice, Xanthan Gum, Onion*, Corn Starch, guar Gum, Yeast Extract., *Dried)"
     },
     "22697": {
@@ -3354,7 +3358,7 @@
       "ingredients": "Milk, Fat Free Chocolate, Half Pint"
     },
     "35788": {
-      "fetchedAt": "2026-10-27",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Milk, 1%, Half Pint"
     },
     "35789": {
@@ -3370,15 +3374,19 @@
       "ingredients": "Mayonnaise (Soybean Oil, Water, Egg, Distilled Vinegar, Egg Yolk,, Contains 2% or less of Salt, Sugar, Lemon Juice Concentrate, Calcium Disodium Edta, Paprika Extract, Natural Flavor)"
     },
     "50159": {
-      "fetchedAt": "2026-10-22",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Mixed Berries, Cups, Frozen"
+    },
+    "60591": {
+      "fetchedAt": "2026-10-28",
+      "ingredients": "Veg Refried Pinto Beans - COMPLEX (Pinto Beans, Canned (Pinto Beans, Water, salt, potassium chloride); Vegetable Broth/Stock (WATER; Vegetable Base (CUSTOM CULINARY: A blend of vegetables (Powders [Tomato, Onion, Carrot, Garlic], Vegetable Purees [Carrot, Celery, Onion], Tomato Paste), Water, Yeast Extract, Torula Yeast, Canola Oil, Palm Oil, Sugar, Potassium Chloride, Salt, Contains 2 percent or less of Natural Flavoring, Extract of Carrot, Disodium Inosinate, Disodium Guanylate.                                                        , )); Diced Tomatoes (Tomatoes, Tomato Juice, Less Than 2% of: Salt, Calcium Chloride, Citric Acid); Onion, Yellow, Fresh; Pepper, Bell, Fresh, Green; Pepper, Poblano, Fresh; Butter Spread, Vegan, Smart Balance (Vegetable Oil Blend (Canola, Palm, and Olive Oils), Water, contains less than 2% of Salt, Pea Protein, Natural and Artificial Flavors, Sunflower Lecithin, Vitamin A Palmitate, Beta-Carotene (Color), Vitamin D, Monoglycerides of Vegetable Fatty Acids (Emulsifier); and Potassium Sorbate, Lactic Acid, Calcium Disodium EDTA (To Preserve Freshness).); GARLIC,RAW; Pinto Bean Seasoning (Removed in CN25 CHILI POWDER; Chipotle Powder; Cumin; Granulated Salt); Cilantro ); Pita Bread (WHOLE WHEAT FLOUR, ENRICHED UNBLEACHED WHEAT FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, ASCORBIC ACID ADDED AS A DOUGH CONDITIONER, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, SOYBEAN OIL, YEAST, SUGAR, SALT, TO PRESERVE FRESHNESS (CALCIUM PROPIONATE).); 50/50 Cheese Blend (Shredded Cheddar Cheese (Cheddar Cheese (cultured pasteurized milk, salt, enzymes, annato (color), anticaking blend (potato starch, cellulose, natamycin (natural mold inhibitor). ); Cheese, Mozzarella (Pasteurized Part Skim Milk, Cheese Cultures, Salt, Enzymes, Potato Starch and Powdered, Cellulose (to prevent caking), Sorbic Acid, Natamycin (a preservative) ))"
     },
     "65410": {
       "fetchedAt": "2026-10-20",
       "ingredients": "WATER; Brown Rice (Long grain parboiled brown rice.); Diced Tomatoes (Tomatoes, Tomato Juice, Less Than 2% of: Salt, Calcium Chloride, Citric Acid); Tomato Paste, Canned; Canned Corn; Peas, Frozen; Pepper, Bell, Fresh, Green; Onion, Yellow, Fresh; Oil, Canola; Vegetable Base (CUSTOM CULINARY: A blend of vegetables (Powders [Tomato, Onion, Carrot, Garlic], Vegetable Purees [Carrot, Celery, Onion], Tomato Paste), Water, Yeast Extract, Torula Yeast, Canola Oil, Palm Oil, Sugar, Potassium Chloride, Salt, Contains 2 percent or less of Natural Flavoring, Extract of Carrot, Disodium Inosinate, Disodium Guanylate.                                                        , ); Garlic Powder; Cumin"
     },
     "65610": {
-      "fetchedAt": "2026-10-27",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Roll, White Wheat (White Whole Wheat Flour:, Water,  Enriched Wheat Flour(wheat flour, calcium sulfate, ferrous sulfate, niacin, thiamine hydrochloride ,riboflavin, folic acid, and tricalcium phosphate), Sugar, Soybean Oil, 9-Grain Cereal (Red Wheat, Oat Groats, Triticale Berries, Rye Berries, Dehulled Barley, Soft White Wheat, Spilt Berries, hard white wheat, flax seed), Salt, Wheat Gluten, Dry Yeast, dough improver (wheat flour, diacetyl tartaric acid, Easters of mono and diglycerides, absorbic acid, enzymes, soybean oil,  potassium iodate)                                                                     Allergens:                                                                                                             Contains wheat/gluten. Processed in a facility that also processes milk, egg, tree nuts. ); Butter Spread, Vegan, Smart Balance (Vegetable Oil Blend (Canola, Palm, and Olive Oils), Water, contains less than 2% of Salt, Pea Protein, Natural and Artificial Flavors, Sunflower Lecithin, Vitamin A Palmitate, Beta-Carotene (Color), Vitamin D, Monoglycerides of Vegetable Fatty Acids (Emulsifier); and Potassium Sorbate, Lactic Acid, Calcium Disodium EDTA (To Preserve Freshness).)"
     },
     "89719": {
@@ -3454,7 +3462,7 @@
       "ingredients": "Cherries, Frozen ; Blueberries, Frozen, Bulk"
     },
     "146311": {
-      "fetchedAt": "2026-10-27",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Carrots, Shredded; LETTUCE,COS OR ROMAINE,RAW; Cherry/Grape Tomato"
     },
     "146332": {
@@ -3494,11 +3502,11 @@
       "ingredients": "Rebellyous Plant Based Kickin Patty (Rehydrated Soy Protein (Water, Soy Protein Concentrate, Soy Protein Isolate), Canola Oil, Breading (Enriched Wheat Flour [Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid], Vinegar, Vegetable Oil [Canola and/or Sunflower], Salt, Baking Soda, Yeast, Spice Extractives), Methylcellulose, Seasoning (Maltodextrin, Sugar, Salt, Yeast Extract, Onion Powder, Dehydrated Garlic, Natural Flavor, Spices, Torula Yeast, Citric Acid, Extractives of Turmeric, [Color]), Corn Starch, Salt); Bun, Hamburger 4\", Whole Wheat (Whole wheat flour, water, enriched wheat flour(wheat flour, calcium sulfate, ferrous sulfate, niacin, thiamine hydrochloride ,riboflavin, folic acid, and tricalcium phosphate), sugar, soybean oil, salt, dry yeast, dough improver (wheat flour, diacetyl tartaric acid, esters of mono and diglycerides, ascorbic acid, enzymes, soybean oil,  potassium iodate).                                                                         Allergens:                                                                                                             Contains wheat/gluten. Processed in a facility that also processes milk, egg, tree nuts. )"
     },
     "164156": {
-      "fetchedAt": "2026-10-27",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Shredded Chicken Breast  (Chicken Breast with Rib Meat, Contains less than 2%of the following: Salt, Natural Flavor, Yeast Extract, Chicken Fat, Chicken Broth); LETTUCE,COS OR ROMAINE,RAW; Cherry/Grape Tomato; Croutons (Whole Wheat Pullman O/T SL (Whole wheat flour, enriched wheat flour(wheat flour, calcium sulfate, ferrous sulfate, niacin, thiamine hydrochloride ,riboflavin, folic acid, and tricalcium phosphate), sugar, soybean oil, salt, wheat gluten, dry yeast (yeast, soritan monostearate, ascorbic acid), dough improver (wheat flour, diacetyl tartaric acid Esters of mono and diglycerides, absorbic acid, enzymes, soybean oil,  potassium  iodate) .                                                                                                              Allergens:                                                                                                             Contains wheat/gluten. Processed in a facility that also processes milk, egg, tree nuts. ); Herb Compound Butter Blend (vegan) (Butter Spread, Vegan, Smart Balance (Vegetable Oil Blend (Canola, Palm, and Olive Oils), Water, contains less than 2% of Salt, Pea Protein, Natural and Artificial Flavors, Sunflower Lecithin, Vitamin A Palmitate, Beta-Carotene (Color), Vitamin D, Monoglycerides of Vegetable Fatty Acids (Emulsifier); and Potassium Sorbate, Lactic Acid, Calcium Disodium EDTA (To Preserve Freshness).); Garlic Powder; Spice, Italian Blend)); Grated Parmesan Cheese (PARMESAN CHEESE (CULTURED PASTEURIZED PART-SKIM MILK, SALT, ENZYMES), POWDERED CELLULOSE ADDED TO, PREVENT CAKING, SALT, POTASSIUM SORBATE (PRESERVATIVE)., CONTAINS: MILK)"
     },
     "164157": {
-      "fetchedAt": "2026-10-27",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Garbanzo Bean (Prepared Garbanzo Beans, Water, Salt, Calcium Chloride (as a Firming Agent), and Calcium Disodium EDTA (to Promote Color Retention).); LETTUCE,COS OR ROMAINE,RAW; Cherry/Grape Tomato; Grated Parmesan Cheese (PARMESAN CHEESE (CULTURED PASTEURIZED PART-SKIM MILK, SALT, ENZYMES), POWDERED CELLULOSE ADDED TO, PREVENT CAKING, SALT, POTASSIUM SORBATE (PRESERVATIVE)., CONTAINS: MILK); Croutons (Whole Wheat Pullman O/T SL (Whole wheat flour, enriched wheat flour(wheat flour, calcium sulfate, ferrous sulfate, niacin, thiamine hydrochloride ,riboflavin, folic acid, and tricalcium phosphate), sugar, soybean oil, salt, wheat gluten, dry yeast (yeast, soritan monostearate, ascorbic acid), dough improver (wheat flour, diacetyl tartaric acid Esters of mono and diglycerides, absorbic acid, enzymes, soybean oil,  potassium  iodate) .                                                                                                              Allergens:                                                                                                             Contains wheat/gluten. Processed in a facility that also processes milk, egg, tree nuts. ); Herb Compound Butter Blend (vegan) (Butter Spread, Vegan, Smart Balance (Vegetable Oil Blend (Canola, Palm, and Olive Oils), Water, contains less than 2% of Salt, Pea Protein, Natural and Artificial Flavors, Sunflower Lecithin, Vitamin A Palmitate, Beta-Carotene (Color), Vitamin D, Monoglycerides of Vegetable Fatty Acids (Emulsifier); and Potassium Sorbate, Lactic Acid, Calcium Disodium EDTA (To Preserve Freshness).); Garlic Powder; Spice, Italian Blend))"
     },
     "164158": {
@@ -3506,7 +3514,7 @@
       "ingredients": "Fried Rice (Brown Rice (Long grain parboiled brown rice.); WATER; Peas, Frozen; Carrots, Shredded; Sauce, Soy, Light (Water, soybeans, salt, sugar, vinegar, lactic acid); Onion, Yellow, Fresh; Sesame Oil Non GMO; GARLIC,RAW; Oil, Canola; Vegetable Base (CUSTOM CULINARY: A blend of vegetables (Powders [Tomato, Onion, Carrot, Garlic], Vegetable Purees [Carrot, Celery, Onion], Tomato Paste), Water, Yeast Extract, Torula Yeast, Canola Oil, Palm Oil, Sugar, Potassium Chloride, Salt, Contains 2 percent or less of Natural Flavoring, Extract of Carrot, Disodium Inosinate, Disodium Guanylate.                                                        , ); Oil, Canola; Oil, Canola; Garlic Powder; ONIONS,SPRING OR SCALLIONS (INCL TOPS&amp;BULB),RAW; Removed in CN25 GINGER,GROUND; Granulated Salt); Chicken Egg Roll (FILLING: Chicken Leg Meat, Carrot, Cabbage, Celery, Seasoning, (Sugar, Salt, Dehydrated Garlic, Dehydrated Onion, Maltodextrin,, Spice, Sodium phosphates, Disodium Inosinate, Citric Acid,, Soybean Oil), Corn Starch, Vegetable Oil., SKIN: Egg Roll Wrapper Whole Grain (Whole Grain Flour, Wheat, Flour, Salt, Vegetable Oil).)"
     },
     "164162": {
-      "fetchedAt": "2026-10-27",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Mayonnaise (Soybean Oil, Water, Egg, Distilled Vinegar, Egg Yolk,, Contains 2% or less of Salt, Sugar, Lemon Juice Concentrate, Calcium Disodium Edta, Paprika Extract, Natural Flavor); Grated Parmesan Cheese (PARMESAN CHEESE (CULTURED PASTEURIZED PART-SKIM MILK, SALT, ENZYMES), POWDERED CELLULOSE ADDED TO, PREVENT CAKING, SALT, POTASSIUM SORBATE (PRESERVATIVE)., CONTAINS: MILK); Mustard (Distilled vinegar and water, mustard seed, salt, turmeric, paprika.); Oil, Canola; GARLIC,RAW; Lemon Juice New; Ground Black Pepper"
     },
     "171643": {
@@ -3609,6 +3617,10 @@
       "fetchedAt": "2026-10-21",
       "ingredients": "Lo Mein (WATER; Noodles, Ramen (Whole Wheat Flour, Enriched flour (wheat flour, Niacin, reduced iron,, thiamine mononitrate, riboflavin, folic acid), Sunflower oil, Salt,, Potassium carbonate, Sodium Tripolyphosphate, Guar gum, Sodium, carbonate); Asian Sauce/Soy Garlic Glaze (JTM: WATER, SUGAR, TAMARI SOY SAUCE (water, soybeans, salt,, sugar), VINEGAR, BROWN SUGAR, MODIFIED FOOD STARCH,, CONCENTRATED PINEAPPLE JUICE, CONTAINS LESS THAN 2%, OF DEHYDRATED GARLIC, ONION POWDER, BLACK COCOA, POWDER, SPICES.                                                                NIPPON SHOKKEN: WATER, SUGAR, GARLIC PUREE, GLUTEN FREE SOY SAUCE (WTARE, SOYBEANS, SALT), BROWN SUGAR, MODIFIED FOOD STARCH, DISTILLED VINEGAR, CARAMEL COLOR, SALT, XANTHAN GUM, SPIC, SUGARCANE MOLASSES. ); Carrots, Shredded; Peas, Frozen); Chicken Bites New SY 26-27 (4 each) (Ingredients: Chicken breast meat with rib meat, water, salt, sodium phosphate, onion powder, garlic powder, and modified corn starch., , Breaded With: Whole wheat flour, enriched wheat flour (wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid), salt, spices, sugar, oleoresin paprika, dried yeast, and garlic powder.  , , Battered With: Water, whole wheat flour, enriched wheat flour (wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid), buttermilk blend (buttermilk, whey solids), salt, dextrose, citric acid, leavening (sodium acid pyrophosphate, sodium bicarbonate, monocalcium phosphate), oleoresin paprika, and xanthan gum.  , , Predusted With: Whole wheat flour, enriched wheat flour (wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid), leavening (sodium bicarbonate, monocalcium phosphate, sodium acid pyrophosphate), salt, spices, corn starch, garlic powder, and oleoresin paprika.  , , Note: Breading is set in vegetable oil.)"
     },
+    "234976": {
+      "fetchedAt": "2026-10-28",
+      "ingredients": "Spanish Rice, 1G (WATER; Brown Rice (Long grain parboiled brown rice.); Diced Tomatoes (Tomatoes, Tomato Juice, Less Than 2% of: Salt, Calcium Chloride, Citric Acid); Tomato Paste, Canned; Canned Corn; Peas, Frozen; Pepper, Bell, Fresh, Green; Onion, Yellow, Fresh; Oil, Canola; Vegetable Base (CUSTOM CULINARY: A blend of vegetables (Powders [Tomato, Onion, Carrot, Garlic], Vegetable Purees [Carrot, Celery, Onion], Tomato Paste), Water, Yeast Extract, Torula Yeast, Canola Oil, Palm Oil, Sugar, Potassium Chloride, Salt, Contains 2 percent or less of Natural Flavoring, Extract of Carrot, Disodium Inosinate, Disodium Guanylate.                                                        , ); Garlic Powder; Cumin); Beef Crisp Up (TORTILLA: Whole Grain Corn, Water, Hydrated Lime, Cellulose Gum, Corn Starch. Fried in Soybean Oil. MEAT:, Beef, 2% or Less of Each of: Spices, Salt, Garlic and Onion Powder, Chili Peppers, Sugar, Tomatoes. CHEESE: Milk and Skim, Milk, Water, Dairy Product Solids*, Modified Food Starch*, Cream, 2% or Less of Each of: Cheese Culture, Citric Acid, Color Added, Enzymes, Milk Protein Concentrate*, Potassium Citrate, Salt, Sodium Citrate, Sorbic Acid, Soy Lecithin, Vitamin a, Palmitate. *Ingredient Not In Regular Pasteurized Process American Cheese.)"
+    },
     "242365": {
       "fetchedAt": "2026-10-23",
       "ingredients": "Southwest Quinoa (Vegetable Broth/Stock (WATER; Vegetable Base (CUSTOM CULINARY: A blend of vegetables (Powders [Tomato, Onion, Carrot, Garlic], Vegetable Purees [Carrot, Celery, Onion], Tomato Paste), Water, Yeast Extract, Torula Yeast, Canola Oil, Palm Oil, Sugar, Potassium Chloride, Salt, Contains 2 percent or less of Natural Flavoring, Extract of Carrot, Disodium Inosinate, Disodium Guanylate.                                                        , )); White Quinoa; Chopped Onion; GARLIC,RAW; Pinto Bean Seasoning (Removed in CN25 CHILI POWDER; Chipotle Powder; Cumin; Granulated Salt)); Corn WHL Kernel; LETTUCE,COS OR ROMAINE,RAW; Shredded Chicken Breast  (Chicken Breast with Rib Meat, Contains less than 2%of the following: Salt, Natural Flavor, Yeast Extract, Chicken Fat, Chicken Broth); Chip, Tortilla, 4 - 2.5 lb bags (Stone ground, whole corn, water, clear canola oil, and a trace of lime); Shredded Cheddar Cheese (Cheddar Cheese (cultured pasteurized milk, salt, enzymes, annato (color), anticaking blend (potato starch, cellulose, natamycin (natural mold inhibitor). ); Cherry/Grape Tomato"
@@ -3630,11 +3642,11 @@
       "ingredients": "Hummus (Garbanzo Bean (Prepared Garbanzo Beans, Water, Salt, Calcium Chloride (as a Firming Agent), and Calcium Disodium EDTA (to Promote Color Retention).); Lemon Fresh; Oil, Canola; GARLIC,RAW; Granulated Salt); Apples, Gala, Sliced; Pita Bread (WHOLE WHEAT FLOUR, ENRICHED UNBLEACHED WHEAT FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, ASCORBIC ACID ADDED AS A DOUGH CONDITIONER, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, SOYBEAN OIL, YEAST, SUGAR, SALT, TO PRESERVE FRESHNESS (CALCIUM PROPIONATE).); Cucumber, Raw; CARROTS, BABY, RAW"
     },
     "252686": {
-      "fetchedAt": "2026-10-27",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Milk, 2%, Half Pint"
     },
     "252688": {
-      "fetchedAt": "2026-10-20",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Milk, 1% Chocolate, Half Pint"
     },
     "252689": {

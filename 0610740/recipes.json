@@ -2110,7 +2110,7 @@
   },
   "ingredients": {
     "146817": {
-      "fetchedAt": "2026-10-27",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Milk, chocolate, fat free, Hollandia"
     },
     "146824": {
@@ -2121,16 +2121,20 @@
       "fetchedAt": "2026-10-19",
       "ingredients": "Corn Dog"
     },
+    "146833": {
+      "fetchedAt": "2026-10-28",
+      "ingredients": "Turkey & Beef Pepperoni Stuffed Sandwich"
+    },
     "146834": {
       "fetchedAt": "2026-10-23",
       "ingredients": "Chicken Patty, Breaded, FC; Bun, Hamburger, 3.5\""
     },
     "146835": {
-      "fetchedAt": "2026-10-27",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Milk, white, low fat, Hollandia"
     },
     "146841": {
-      "fetchedAt": "2026-10-23",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Baby Carrots, 2.6oz bags"
     },
     "146844": {
@@ -2142,7 +2146,7 @@
       "ingredients": "Corn, Canned, LS; Oil, Vegetable, USDA; Salt, table; Spice, Garlic Powder; Spices, Black Pepper, ground; Spices, Paprika"
     },
     "146856": {
-      "fetchedAt": "2026-10-23",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Buttermilk Ranch Dressing Cups, Marzetti, 1oz"
     },
     "161381": {
@@ -2154,7 +2158,7 @@
       "ingredients": "BBQ Sauce Cups, Low Sodium"
     },
     "161405": {
-      "fetchedAt": "2026-10-23",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Yogurt Cup with Granola (Yogurt, Raspberry Rainbow, Trix, 4oz ; Yogurt, Strawberry Banana, Trix, 4oz; Yogurt, Triple Cherry, Trix, 4oz; Chocolate Granola); Yogurt, Greek, Strawberry, Nonfat, Cups, Chobani; String Cheese, 1oz, Land-O-Lakes; Goldfish Cracker, Cheddar, WG, 0.75oz"
     },
     "161407": {
@@ -2172,6 +2176,10 @@
     "170172": {
       "fetchedAt": "2026-10-23",
       "ingredients": "Banana, raw, medium"
+    },
+    "170173": {
+      "fetchedAt": "2026-10-28",
+      "ingredients": "Tangerine, raw, small"
     },
     "172212": {
       "fetchedAt": "2026-10-23",
@@ -2237,12 +2245,16 @@
       "fetchedAt": "2026-10-23",
       "ingredients": "Apricots, Diced, Cups, Frozen, USDA"
     },
+    "233879": {
+      "fetchedAt": "2026-10-28",
+      "ingredients": "Pears, Asian, Rall, 2-1/4\" high, 2-1/2\" diameter"
+    },
     "236356": {
       "fetchedAt": "2026-10-23",
       "ingredients": "Cucumber, with peel, raw, slices"
     },
     "236361": {
-      "fetchedAt": "2026-10-23",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Tajin Reduced Sodium Seasoning"
     },
     "236364": {
@@ -2297,8 +2309,12 @@
       "fetchedAt": "2026-10-19",
       "ingredients": "Sandwich Bread, WG, Sliced; Cheese, American, Sliced, Bongards; Queso Blanco; Butterbuds"
     },
+    "243523": {
+      "fetchedAt": "2026-10-28",
+      "ingredients": "Pizza Sauce (Tomato, Sauce, Canned, Low Sodium; Sugar, Granulated; Italian Seasoning; Salt, table; Spices, Oregano, ground; Spice, Garlic Powder; Spices, Black Pepper, ground); WG Cheese Lasagna Roll Up"
+    },
     "243528": {
-      "fetchedAt": "2026-10-22",
+      "fetchedAt": "2026-10-28",
       "ingredients": "Romaine Lettuce, raw; Carrots, raw, grated; Cucumber, with peel, raw, slices"
     },
     "243529": {
@@ -2318,7 +2334,7 @@
       "ingredients": "Cheddar Cheese Stick; Honey Cheerios Cereal"
     },
     "248629": {
-      "fetchedAt": "2026-10-23",
+      "fetchedAt": "2026-10-28",
       "ingredients": "String Cheese, 1oz, Land-O-Lakes; Birthday Cake Graham Crackers; Strawberry Graham Crackers; Smokehouse Original Chicken Meat Stick; BBQ Chicken Meat Stick"
     },
     "248630": {
