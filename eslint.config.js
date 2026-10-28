@@ -31,6 +31,7 @@ export default [
         document: "readonly",
         Event: "readonly",
         location: "readonly",
+        matchMedia: "readonly",
         fetch: "readonly",
         FormData: "readonly",
         URL: "readonly",

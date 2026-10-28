@@ -1,4 +1,4 @@
-// The top chart (food-ebu). Browser only (Plot is a global from vendor/); the
+// The top chart. Browser only (Plot is a global from vendor/); the
 // math lives in needs.js, where tests reach it.
 import { WIDTH } from "./charts.js";
 import { AGES, NUTRIENTS, needShares } from "./needs.js";

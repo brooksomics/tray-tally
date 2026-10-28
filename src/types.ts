@@ -95,7 +95,7 @@ export interface Item {
   fiberG: number | null;
   proteinG: number | null;
   sodiumMg: number | null;
-  calciumMg?: number | null; // absent in days stored before 2026-10-23 (food-ebu)
+  calciumMg?: number | null; // absent in days stored before 2026-10-23
   ironMg?: number | null;
   ingredients?: string | null; // SchoolCafe only: SubIngredientsDisplay, null until fetched
   flags: Flag[];

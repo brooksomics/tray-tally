@@ -110,7 +110,8 @@ Uninstall: `launchctl bootout gui/$(id -u)/local.school-meal-tracker.fetch && rm
 A static page over `data/summary.json`, with no build step:
 
 ```sh
-npm run fetch                     # or let the daily job do it; writes data/summary.json
+mkdir -p data && curl -sfL https://raw.githubusercontent.com/brooksomics/tray-tally/data/summary.json -o data/summary.json
+                                  # the daily job's latest; or `npm run fetch` to make your own
 python3 -m http.server 8000       # from the repo root
 open http://localhost:8000/dashboard/
 ```
