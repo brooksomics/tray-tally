@@ -5,12 +5,8 @@ import { names, split } from "./highlight.js";
 import { SODIUM_RULES, Y, mealSymbols, mondayTicks } from "./lines.js";
 import { menuSodiumDensity, mondayOf } from "./series.js";
 import { el } from "./ui.js";
+import { width } from "./width.js";
 
-// Fit the reading column (phones included), up to 1000 px.
-export const WIDTH = Math.max(
-  320,
-  Math.min(1000, document.body.clientWidth - 32),
-);
 const day = (d) => new Date(`${d.date ?? d.week}T12:00:00`);
 // A line per district + menu; color by district, shape by meal.
 const series = (d) => `${d.districtName} · ${d.menu}`;
@@ -22,7 +18,7 @@ const R = 3.5;
 // Ticks on Mondays ("Oct 12"), where a week's dot sits.
 const xAxis = (/** @type {string[]} */ weeks, /** @type {string} */ label) => ({
   label,
-  ticks: mondayTicks(weeks, WIDTH).map((week) => day({ week })),
+  ticks: mondayTicks(weeks, width()).map((week) => day({ week })),
   tickFormat: (/** @type {Date} */ d) =>
     d.toLocaleDateString("en-US", { month: "short", day: "numeric" }),
 });
@@ -32,7 +28,7 @@ export function sugarChart(rs) {
   const who = { stroke: "districtName", symbol: "meal", r: R };
   const dots = { ...who, x: day, y: "addedSugarG", tip: true, title };
   return Plot.plot({
-    width: WIDTH,
+    width: width(),
     x: xAxis(
       rs.map((r) => mondayOf(r.date)),
       "day",
@@ -108,7 +104,7 @@ export function trendChart(rows, opts) {
   const { y, label, percent, per, highlight } = opts;
   const { focus, context } = split(rows, highlight ?? names(rows));
   return Plot.plot({
-    width: WIDTH,
+    width: width(),
     x: xAxis(
       rows.map((d) => d.week),
       per === "day" ? "school day" : "week of (Monday)",
