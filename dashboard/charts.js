@@ -25,9 +25,9 @@ const xAxis = (/** @type {string[]} */ weeks, /** @type {string} */ label) => ({
 
 /** Each item on each day; `highlight` as in trendChart. */
 export function sugarChart(rs, highlight) {
-  const title = (d) => `${d.item}\n${d.addedSugarG} g · ${d.menu}`;
   const xy = { x: day, y: "addedSugarG" };
-  const who = { stroke: DISTRICT, symbol: "meal", r: R, tip: true, title };
+  const tip = { tip: true, title: data.sugarTip };
+  const who = { stroke: DISTRICT, symbol: "meal", r: R, ...tip };
   const { focus, context } = split(rs, highlight ?? names(rs));
   const weeks = rs.map((r) => mondayOf(r.date));
   return Plot.plot({
