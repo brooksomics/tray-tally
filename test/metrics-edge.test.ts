@@ -164,6 +164,17 @@ test("an estimate replaces only a missing or named wrong value, flagged; a new p
   );
 });
 
+test("an estimate confirming a published 0 g keeps it and clears the suspect flag", () => {
+  const bake = { sourceId: "5112", item: "Cheesy Taco Bake" };
+  const confirmed = { ...bake, addedSugarG: 0, published: 0, basis };
+  const d = { ...district, addedSugarEstimates: [confirmed] };
+  const items = [item({ ...bake, addedSugarG: 0, sugarG: 9 })];
+  const days = [{ ...milkDay, items }];
+  const s = summarize([{ district: d, days, changes: 0 }], "x");
+  const [i] = s.districts[0].series[0].days[0].items;
+  assert.deepEqual([i.addedSugarG, i.flags], [0, ["estimated_added_sugar"]]);
+});
+
 test("impossible or uncomputable shares are null", () => {
   assert.equal(
     itemMetrics(item({ addedSugarG: 12, kcal: 12 })).addedSugarShareKcal,
