@@ -56,6 +56,7 @@ export interface AddedSugarEstimate {
   item: string; // must match too, in case a sourceId is reused
   addedSugarG: number;
   published?: number; // the wrong value it replaces (e.g. 0); omitted: fills only a null
+  sugarG?: number; // total sugars, replacing a published 0 or null (a juice)
   basis: string;
 }
 

@@ -175,6 +175,21 @@ test("an estimate confirming a published 0 g keeps it and clears the suspect fla
   assert.deepEqual([i.addedSugarG, i.flags], [0, ["estimated_added_sugar"]]);
 });
 
+test("an estimate's total sugars replace only a published 0 or null", () => {
+  const oj = { sourceId: "41", item: "Orange Juice", addedSugarG: 0 };
+  const e = { ...oj, published: 0, sugarG: 10, basis };
+  const pear = { sourceId: "42", item: "Pear Juice", addedSugarG: 0 }; // none
+  const ests = [e, { ...pear, published: 0, basis }];
+  const d = { ...district, addedSugarEstimates: ests };
+  const juices = [0, null, 12].map((sugarG) => item({ ...oj, sugarG }));
+  const days = [
+    { ...milkDay, items: [...juices, item({ ...pear, sugarG: 0 })] },
+  ];
+  const s = summarize([{ district: d, days, changes: 0 }], "x");
+  const got = s.districts[0].series[0].days[0].items.map((i) => i.sugarG);
+  assert.deepEqual(got, [10, 10, 12, 0]);
+});
+
 test("impossible or uncomputable shares are null", () => {
   assert.equal(
     itemMetrics(item({ addedSugarG: 12, kcal: 12 })).addedSugarShareKcal,

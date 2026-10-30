@@ -27,7 +27,7 @@ export const CAVEATS = [
   "Items over their meal's federal calorie maximum, or with more added-sugar calories than calories, are flagged 'suspect' (likely data-entry errors) and kept.",
   "A side (not an entrée) with more sodium than its whole K-5 meal may average (lunch 1,110 mg, breakfast 540 mg) is flagged 'suspect_sodium' (a likely data-entry error), kept, and left out of the menu sodium density.",
   `An entrée published at 0 g added sugar with ${UNRECORDED_SUGAR_G} g or more total sugars is flagged 'suspect_added_sugar' (its added sugar was likely not recorded), kept at 0 g, and listed under Worst offenders.`,
-  "Some added-sugar values come from vendor labels or recipes rather than the menu: where a district publishes none, or publishes 0 g for an item whose label shows more. Each is flagged 'estimated_added_sugar'. Where the labels confirm a published 0 g, the item keeps 0 g and isn't flagged 'suspect_added_sugar'. A new value from the district replaces the estimate. Each value and its source is listed in districts.json.",
+  "Some added-sugar values come from vendor labels or recipes rather than the menu: where a district publishes none, or publishes 0 g for an item whose label shows more. Each is flagged 'estimated_added_sugar'. Where the labels confirm a published 0 g, the item keeps 0 g and isn't flagged 'suspect_added_sugar'. An estimate can also give total sugars where a juice is published at 0 g (from USDA FoodData Central). A new value from the district replaces the estimate. Each value and its source is listed in districts.json.",
 ];
 
 const NUTRIENTS = [
@@ -88,7 +88,8 @@ function series(menu: Menu, days: DayFile[], isEntree: IsEntree) {
 /**
  * Replaces added sugar the district doesn't publish (null), or publishes as a
  * value its estimate names as wrong, from districts.json. Any other published
- * value wins: a district's own new number ends the estimate.
+ * value wins: a district's own new number ends the estimate. An estimate's
+ * total sugars replace a published 0 or null only.
  */
 function withEstimates(d: District, days: DayFile[]): DayFile[] {
   const find = (i: Item) =>
@@ -102,6 +103,7 @@ function withEstimates(d: District, days: DayFile[]): DayFile[] {
     return {
       ...i,
       addedSugarG: e.addedSugarG,
+      sugarG: i.sugarG || (e.sugarG ?? i.sugarG),
       flags: [...flags, "estimated_added_sugar"],
     };
   };
