@@ -112,6 +112,16 @@
         "IW (individually wrapped)"
       ],
       "note": "Menus are published per school (DistrictOnly=true returns 0 rows), so one representative elementary is queried: schoolId 20 (Adams Elementary). Why it: the 2026-10-08 probe used it. Assumes SDUSD elementary menus are district-standard and that schoolTypeId 1 (elementary) applies with a SchoolID (both UNVERIFIED until a live run / a second school is compared). entreeCategories: SDUSD files main dishes under Meat/Meat Alternate, Heat and Serve and Poultry; IW (individually wrapped) holds the breakfast muffin, concha and pancake bites, the only main item on 30 of 34 breakfast days with one (2026-10-08 data). IW is a packaging label, not a role: recheck if a wrapped side appears. This note never leaves the repo; published output names the district only.",
+      "addedSugarEstimates": [
+        {
+          "sourceId": "41",
+          "item": "Orange Juice",
+          "addedSugarG": 0,
+          "published": 0,
+          "sugarG": 10,
+          "basis": "San Diego Unified publishes 0 g of sugars for its 4 oz orange juice at 60 kcal; 100% juice can't be sugar-free. USDA FoodData Central, Orange juice, chilled, includes from concentrate (FDC 169100, SR Legacy NDB 9209): 49 kcal and 8.31 g total sugars per 100 g, so 60 kcal carry 10.2 g of sugars. At FDC's 31.1 g per fl oz, a 4 fl oz cup is 124 g and 61 kcal, matching the menu. The published 0 g added sugar stands: 100% juice has none added. Checked 2026-10-30."
+        }
+      ],
       "menus": [
         {
           "id": 2,

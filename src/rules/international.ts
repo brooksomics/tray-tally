@@ -26,7 +26,7 @@ export const INTERNATIONAL_REFERENCES = {
   },
   freeSugarsFivePercentShare: {
     value: 0.05,
-    note: "Free sugars below 5% of energy: WHO's conditional recommendation, and the UK's for ages 2 and up. Free sugars also count sugars in juice; we only see added sugar, so this comparison is lenient",
+    note: "Free sugars below 5% of energy: WHO's conditional recommendation, and the UK's for ages 2 and up. Free sugars also count sugars in juice: against added sugar alone this comparison is lenient; the dashboard's free-sugars chart adds juice's sugars",
     source:
       "WHO, Guideline: sugars intake for adults and children (2015), p.4: 'WHO suggests a further reduction of the intake of free sugars to below 5% of total energy intake (conditional recommendation)'; SACN, Carbohydrates and Health (2015), S.18: 'should not exceed 5% of total dietary energy for age groups from 2 years upwards'. Read 2026-10-09",
   },

@@ -3,11 +3,13 @@
 import { bestItems, bestNote, bestTable } from "./best.js";
 import { sodiumChart, sugarChart, trendChart } from "./charts.js";
 import * as data from "./data.js";
+import { freeSugarShare } from "./free-sugar.js";
 import { names, pick } from "./highlight.js";
 import {
   UPF,
   daySugarOpts,
   fiberOpts,
+  freeOpts,
   proteinOpts,
   weeksOpts,
 } from "./lines.js";
@@ -40,6 +42,7 @@ const CHARTS = [
   "scorecard",
   "sugar",
   "weeks",
+  "free",
   "upf",
   "upf-path",
   "fiber",
@@ -95,6 +98,7 @@ function charts(summary, f, rs) {
     ["needs", needsChart(rs, refs, f)],
     ["scorecard", scorecard(summary, f, rs)],
     ["weeks", trendChart(data.weeks(summary, f), weeksOpts(refs))],
+    ["free", trendChart(freeSugarShare(rs), freeOpts(refs))],
     ["upf", trendChart(upf, UPF)],
     ["upf-path", upfPathSection(upf, refs)],
     ["fiber", trendChart(entreeFiberDensity(rs), fiberOpts(refs))],
