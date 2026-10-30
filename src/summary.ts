@@ -22,12 +22,12 @@ export const CAVEATS = [
   "Applying the weekly <10%-of-calories added-sugar limit to one item, or to an unweighted weekly mean of items offered, is a heuristic, not a compliance finding.",
   "Weekly means are estimates over the items that have data; with under half the items known there is no verdict.",
   "These are menu items offered, not what any child took or ate.",
-  "Null means a value wasn't published (e.g. added sugar for Escondido's white milk) or can't be computed (e.g. 0 kcal).",
+  "Null means a value wasn't published or can't be computed (e.g. 0 kcal).",
   "California lens: ab1264NutrientCriterion only says whether an item is high in saturated fat, sodium or added sugar as AB 1264 defines it. Neither true nor false decides whether it is an ultraprocessed food: that also needs a listed additive, a nonnutritive sweetener is an alternative trigger, and some foods are excluded outright (e.g. Class 1 milk, USDA commodity foods, raw and minimally processed foods). AB 1264 restricts nothing yet: the state defines 'UPF of concern' by 2028-06-01, schools begin phasing them out by 2029-07-01, and school meals exclude them from 2035-07-01.",
   "Items over their meal's federal calorie maximum, or with more added-sugar calories than calories, are flagged 'suspect' (likely data-entry errors) and kept.",
   "A side (not an entrée) with more sodium than its whole K-5 meal may average (lunch 1,110 mg, breakfast 540 mg) is flagged 'suspect_sodium' (a likely data-entry error), kept, and left out of the menu sodium density.",
   `An entrée published at 0 g added sugar with ${UNRECORDED_SUGAR_G} g or more total sugars is flagged 'suspect_added_sugar' (its added sugar was likely not recorded), kept at 0 g, and listed under Worst offenders.`,
-  "Three added-sugar values aren't the district's own; each is flagged 'estimated_added_sugar'. Escondido's fat-free chocolate milk (unpublished) and pan dulce (published as 0 g) carry 7 g, the value Del Mar Union publishes for items with matching nutrition facts. Del Mar's Oatmeal Chocolate Chip Bar (published as 0 g) carries the 19 g on its maker's label. A new value from the district replaces the estimate.",
+  "Some added-sugar values come from vendor labels or recipes rather than the menu: where a district publishes none, or publishes 0 g for an item whose label shows more. Each is flagged 'estimated_added_sugar'. Where the labels confirm a published 0 g, the item keeps 0 g and isn't flagged 'suspect_added_sugar'. A new value from the district replaces the estimate. Each value and its source is listed in districts.json.",
 ];
 
 const NUTRIENTS = [

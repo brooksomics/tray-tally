@@ -39,11 +39,16 @@ export const UNRECORDED_SUGAR_G = 8;
 /**
  * Flags an entrée published at 0 g added sugar with UNRECORDED_SUGAR_G or
  * more total sugars: its added sugar was likely not recorded. Sides are
- * exempt: fruit, milk and juice carry sugars with none added.
+ * exempt: fruit, milk and juice carry sugars with none added. So is a 0 g
+ * an estimate confirmed from labels (flagged 'estimated_added_sugar').
  */
 export function addedSugarFlag(isEntree: (i: Item) => boolean) {
+  const unrecorded = (i: Item) =>
+    i.addedSugarG === 0 &&
+    (i.sugarG ?? 0) >= UNRECORDED_SUGAR_G &&
+    !i.flags.includes("estimated_added_sugar");
   return (i: Item): Item =>
-    isEntree(i) && i.addedSugarG === 0 && (i.sugarG ?? 0) >= UNRECORDED_SUGAR_G
+    isEntree(i) && unrecorded(i)
       ? { ...i, flags: [...i.flags, "suspect_added_sugar"] }
       : i;
 }
