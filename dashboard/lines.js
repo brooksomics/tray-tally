@@ -8,6 +8,7 @@ const pct = (r) => r && `${Math.round(r.value * 100)}%`;
 const [lower, higher] = [" · lower is better", " · higher is better"];
 export const Y = {
   sugar: `added sugar, % of calories${lower}`,
+  free: `free sugars, % of calories${lower}`,
   itemSugar: `added sugar per item (g)${lower}`,
   upf: `% of items (milk left out)${lower}`,
   path: `% of items${lower}`,
@@ -41,6 +42,13 @@ export const daySugarOpts = (refs) => ({
   y: "mean",
   hollow: (d) => d.known < d.n / 2,
 });
+// Free sugars: WHO's lines. Its 10% is the US rule's number, but the US rule
+// counts added sugar only.
+export const freeOpts = (refs) => {
+  const [ten, five] = daySugarOpts(refs).rules;
+  const who = { ...ten, label: `WHO: ${pct(refs.usdaWeeklyAddedSugarShare)}` };
+  return { ...daySugarOpts(refs), label: Y.free, rules: [who, five] };
+};
 export const UPF = {
   y: "mean",
   label: Y.upf,
